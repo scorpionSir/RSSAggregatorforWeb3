@@ -1,0 +1,190 @@
+[![logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABj0lEQVQoz12Sv0vDQBTHT0HrD4QWRJRLi3QQOojon1JxUhcFQQeViknrJjiIglgRhW4OTiLSWXB10MnJoToI0lp6ESu1TZNc/L7LFcGDD+8u4X3y3r0wKeUUeAqwEBVYZa9amhCb0bydjbdti/vAsy0jALPYp0EZSODq91W8W2AQPGqZg9CUvkvGUv08fSEywwGESDIaoAW+QQHJbWEq+Y+mqc8OCV3wASZBzP+qJJ8ZY2JrpKgqMvk8Yh8kvL6b6sZ+WZicki/BIBgFUVCk5ywsTr4ikvxI+l4F+w20e21bcQiNGUiZ2OZdSGLYr+jW9+hcw3NUx/DBY6pSCcELZCQ8RMtvOK+K9aErO5ugCqdJCDESVVzSwgMSQhLRwjMl1C1Xw+H4Mf/zPQFhxN5J3qrEbGJRmGMDwjIMYfF+yDNauK+FvVp4qlqG6F4PpY3goMIWxebdiVdbi1CiDC+dtwBdfmcA+X/CQqflFGQP6nf5+20C6blB4yYnRW7chcihCYbwFk0ZzAES9eiIq+DiFyR9m3ZUxiupAAAAAElFTkSuQmCC)![logo](/static/9c635c914229a850d1a9fd284014bdd0/65e33/eco_logo.png)](/)
+
+  * [新闻资讯](/)
+
+  *   * [零时学院](/c0llege)
+
+  * [开发者门户](/develop)
+
+  * [生态漫游](/ecos)
+
+Ξ
+
+Search by [](https://www.algolia.com/?utm_source=react-
+instantsearch&utm_medium=website&utm_content=&utm_campaign=poweredby)
+
+## MEDALLA测试网“崩溃”事件始末
+
+上周五Eth2测试网Medalla突发时间同步问题，网络参与率断崖式下降，究竟发生了什么？
+
+* * *
+
+BE
+
+Ben Edgington 2020-08-18
+
+来源 | [What’s New in
+Eth2](https://hackmd.io/@benjaminion/eth2_news/https%3A%2F%2Fhackmd.io%2F%40benjaminion%2Fwnie2_200710)
+
+  
+
+译者注：请运行Prysm客户端的用户尽快升级到[Alpha.23版本](https://github.com/prysmaticlabs/prysm/releases)
+
+本期是wnie2计划之外的更新，将针对周末Eth2 Medalla测试网发生的插曲进行回顾和分析。
+
+我们在差不多两周前启动了Medalla，也就是8月4日，这是一个**大型的、公开的多客户端测试网，运行Eth2主网规范。**关于Medalla测试网的介绍，可以参阅[上期](https://hackmd.io/@benjaminion/wnie2_200808)。
+
+测试网平稳运行了10天，即使验证者参与率比我们预期中要低 (70%-80%的验证者保持长期在线)。但这无伤大雅，测试网完全能应付。
+
+然而周五的傍晚，我在控制板中目睹了验证者参与率突然断崖式下降。
+**在几分钟之内，活跃验证者从22000降低到5000左右，网络中约80%的验证者都消失了。**
+
+因此，本文将对此事件进行回顾，包括其后果和下一步的措施。
+
+  
+
+# 究竟发生了什么？
+
+我们发现，网络中每个运行Prysm客户端的验证者都突然消失了。由于Prysm是使用度最高的客户端，其后果严重性可想而知。
+
+Prysmatic团队在此次事件中开放了一个[文档报告](https://docs.google.com/document/d/11RmitNRui10LcLCyoXY6B1INCZZKq30gEU6BEg3EWfk/edit)，并且持续在其中更新事件细节以及团队响应。以下是一些重点内容以及我的注释。
+
+事件起因是 **时钟同步 (clock sync)**
+出现问题。Prysm客户端的配置使用了Cloudflare的[Roughtime](https://blog.cloudflare.com/roughtime/)来计算时间。(在我看来)
+其起因还不是非常明确，但很显然**Roughtime将时间推移到了未来的四小时，并且持续了一个多小时。**Prysm客户端验证者们突然发现他们的时间快了四个小时，并且继续为尚不存在的区块链生成区块和证明。
+
+就其本身而言，还不足以造成灾难性的后果。即使有许多区块丢失，并且面临大量来自未来的证明，剩下的客户端仍然能够在原链上进行建设。渐渐地，随着Prysm节点的时钟调整回来，他们开始回到网络中，并且验证者参与率也开始回升。网络似乎在恢复正常。
+
+但几小时之后，情形又急转直下。
+
+在初始时间发生的四小时之后，又发生了两件事。首先，所有Prysm客户端在未来生成的证明都开始具备有效性。其次，重新加入网络的Prysm节点又开始消失了，原因是为了防止他们生成任何相悖的证明，罚没保护机制被触发了。
+
+这两件事同时发生，让网络陷入了混乱。剩下的客户端仍在努力地处理他们所接收到的信息，信标链变成了不停分支的丛林。(Prysmatic团队的Raul告诉我，Prysm首次修复中的一个bug使得情况恶化)
+
+在一段时间之内，网络中的信息仍处于可控范围内。但在接下来的24小时左右，要导航愈加复杂混乱的分叉，所需的内存和CPU变得难以负担。我看到一个Lighthouse客户端使用了30GB内存
+(约为通常情况下的100倍)，对于Teku客户端来说，即使使用12GB的Java内存堆并最大化处理器，也遇到了麻烦。
+
+请注意，这一切都发生在周末。感谢所有奋战在一线的客户团队们，为了使节点能够应对混乱的网络，他们需要不停地优化内存和效率。
+
+**到目前为止，网络正在逐渐恢复。 **用户报告不尽相同，但是** Prysm和Lighthouse的新版本刚好能够找到正确的链头并继续构建信标链。**[
+Eth2Stats](https://blog.cloudflare.com/roughtime/)当前显示链头或附近的Lighthouse、Prysm和Teku节点的一些节点。我们会继续优化Teku，减少其在同步时所需的资源。
+
+  
+
+# 没有发生共识失败
+
+有一点需要明确的是， **客户端之间没有发生共识失败**
+，也就是说网络恢复时，所有客户端都能就链头状态达成共识，也就意味着信标链不会从根本上失败，也不需要进行任何硬分叉。
+
+## Lessons经验
+
+我们将会花更多时间对这个插曲进行全面反思和总结，以下是我个人的一些陋见。
+
+### 时间同步的重要性
+
+高度依赖第三方时间服务对于网络来说是一个致命点。碰巧的是，ConsenSys TX/RX研究团队的Alex
+Vlasov之前就撰文详尽阐释了时间同步及其在以太坊2.0网络中的重要性。他的工作在飞速进展当中，或许这也是一次让大家关注到这个方面的契机。此处是他的[相关文章和ethresear.ch贴文](https://github.com/harmony-
+dev/beacon-chain-java/wiki/Research-documents-\(ENG\))。
+
+### 客户端多样性的意义
+
+理想情况是我们会有四个及以上独立客户端，每个客户端节点所占比例不超过网络的30%。如此一来，即使有一个客户端出现了问题，而影响都不足以引起我们的注意。
+
+就算我们无法达到这种理想情况，但是降低单个客户端的极高使用率也能使得网络更加强健。假设这次只有50%的验证者下线而非80%，网络也会更容易恢复。这是因为当客户端出现问题时，会影响网络的
+**区块产生、证明打包、广播效率、点对点通信以及同步** ，而这些因素也会对剩余的验证者产生连带效应。
+
+### 备用方案的有效性
+
+一些质押者能够切换签名密钥到其他客户端的热备份节点。这无疑使非常棒的安全网络，虽然需要当心避免被罚没：新验证者可能对于既有验证者的投票历史一无所知，因此可能做出相悖的投票。
+
+在将来，一旦我们完成了[新的API](https://github.com/ethereum/eth2.0-APIs/)，应该可以实现在不同的信标节点之间切换验证者客户端的能力，而不仅仅是密钥。例如，一个Prysm验证者能够轻易地脱离Prysm信标节点，并且重新连接到Teku信标节点。这能够解决上面提到的罚没问题。
+
+### 质押者的责任感
+
+目前参与Eth2并不是“一劳永逸”的事。质押者们需要保持一定注意力，游走于论坛之间，为开发者提供反馈并且能够在短时内更新客户端。我非常支持大家运行自己的个人验证者，但前提是对自己应承担的责任有所意识。
+
+### 欲速则不达
+
+为什么总是在周五傍晚出岔子？
+
+即使发生在这个时间，Prysmatic团队做出的响应令人惊叹。详情请参阅该团队的[事件报告](https://github.com/ethereum/eth2.0-APIs/)。我以下的表述并非意在给Prysmatic团队带来不良影响，他们的工作的确非常出色，而是为Teku团队在面临相似处境的时候提供经验。
+
+当有这么多用户失去资产的时候 (即使只是测试币)，并且网络处于高压状态下，自然而然会想要做出迅速的反应，但是有时可能欲速则不达。
+
+这次事件中有两件事是可以避免的。首先，在初始修复版本Alpha.21中有一个缺陷，导致要求用户在17小时后进行回滚。
+
+据Prysmatic团队Raul的说法，此缺陷是造成随后出现网络混乱的原因。其次，团队在处理情况时无意中删除了其1024个验证者的防罚没记录数据库，导致大部分验证者被罚没。
+
+任何一个客户端都可能会发生类似情况。所以即使处于高压状态下，无论是开发者还是用户，我们所有人都要沉稳应对，不能一味追求速度。因此当我们在尝试恢复网络时，遵循了慢工出细活的方式。
+
+###
+
+### 暴露问题以绝后患
+
+最后，这次插曲其实是有必要的。如果测试网中什么都没测试出来，那它有何意义？一直处于顺滑运行的状态显然是不现实的。
+
+这次是一场了不起的考验！这也许是网络所能遭受的最严重的一类冲击，就算让我们自己来设计，可能也设计不出这样的测试。让测试网遭受这种程度的冲击正是我们强化客户端所需的必备条件。
+
+上周[The Block在文章中](https://www.theblockcrypto.com/daily/74616/medalla-
+eth-2-dress-rehearsal)引用了我的陈述：
+
+在邮件中，PegaSys工程师Ben Edgington写道Medalla“是首个具备主网规模和配置的测试网”。
+
+“这是首次大规模试验，而之前只是屏幕上的规范，或是玩具网络。点对点网络中有许多方面需要进行测试和优化。到目前为止，一切都在正常运行中，但是在我们能确保无误之前，还需要更多的时间，更广的规模以及更大的网络压力”。
+
+说实话，[还真是盼啥来啥](https://twitter.com/benjaminion_xyz/status/1294909664652595201)。
+
+  
+
+##
+
+# 下一步是什么？
+
+目前，所有客户端团队都在致力于强化客户端，使其能够应对极端的网络情况。问题不大，**我们应该在接下来的几天内就能使Medalla恢复到正常状态，**可能会对所有验证者的余额产生影响，也会有一些验证者面临罚没。
+
+如果在这之后，即使网络能正常运行，但验证者参与率还是无法回升，那么我们可能会考虑从头开始，重新部署存款合约
+(重新创世或许也是一个不错的选择)。但这只是现阶段的一个备选方案。
+
+Medalla万岁
+
+  
+  
+
+声明：ECN的翻译工作旨在为中国以太坊社区传递优质资讯和学习资源，文章版权归原作者所有，转载须注明原文出处以及ethereum.cn，若需长期转载，请联系[ethereumcn@gmail.com](mailto:ethereumcn@gmail.com)进行授权。
+
+* * *
+
+Ethereum Community Network
+
+以太坊社区网络
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAABcRAAAXEQHKJvM/AAADm0lEQVQ4yyWU1yv9YRzHnzulKLkR5QLxS1aJyDw2WdkS4Zinc+yRvcLJ3nvvHSG7jBtKVi7IhaRcuBDlD/i9vs734uv7eD6f53mvzxHm5uZRUVHBwcEREREODg6Ojo7W1tb6+voWFhYeHh7//h49PT0bGxsvLy9TU9Po6GiKaaFR8GdycrK9vX1ubi4zMzM9Pb2np6epqamoqIgPuVy+urra2dm5vb39/Pzc3Nw8MDDQ0dGxuLgYExMjOKatre3p6amvr0+hUOTn5+fm5t7d3ZWXl/f393d3d3M074KCgq2tLbVaXVtbyylDQ0Ph4eHSzbOzs2xPTU1lZ2fX1dXV1NS8v78XFxfX19fPzMwolcqWlhb+T1l1dfX4+DiHLi8vR0ZGCmgAtaSkpLW1lYNcXFzc3d0BNj8/PzExwSWfn5+3t7egY8k7NDQ0KysLdM7OzkJHR2dwcPDj44PqjIyMhISEtLS00tLSiooK6r6+vg4ODqCwsLCAVFDw9/dPTEzc3d2VYNvZ2alUqunp6f39/evra5hTWllZaWRkFBISAjy2KLi/v2cJOnahvbOzw1kiMDAQSkgXFha2tra2vr6OkrCCv/rvgbaTk1NycjLSaqAh3uvrq6Q2DBsbG4+OjmDC+uLiguXw8HB8fLxMJmP38vIS28bGxjgXztAJCgpCFIIgdHV1CwsLQcIGp4IiLi6ut7eXbXTOy8sDCEbExsb6+fmdnJxAAXXOz8/d3NyElpYW2EgCYGjQ6KmRwNXVlXNfXl7oIWGUQRVHUlJScCEpKUkYGxuTjaurK7hRBH7aNjc3AUl1Q0MDgfn9/YUF+cVRX19f+IPUyspKYBeSHh8fQ4w2slFWVoZgYPv+/iaYaPH29sYpNFND8kkxIZWaCQnubWxsoIS3tzcosLSqqgrywFlaWgLF2dkZIPEPdra2thRgKsUCG4jL3t7ew8MDAeRaTkUwyFPEN8YyFSzR7+bmhg/yix3gF/b29iyo4M3loPj5+UFMDMvJyUEeJglSpIA7OJScIDhZkpphwogwg1xC/+joKMaenp5SzTZUierh4eHj4yOR7Orqopli0ib5rBlJpGewwAxbPGNUAgICcJIPS0tLEGHEysrKyMgIbYSfnw3yK40k3JgNxEBGAwMD3GZOmEe0ZQYxiR62IKxJHg/3kz/BrwnpYUR4o7y2tranp2dqaqqPj4+ZmRk3mJiYICyOahJONg0NDUkbsP8DL00/zmMjxB8AAAAASUVORK5CYII=)![](/static/57048268f8823dd1ea147faa8e568647/d786d/footer_wechat.png)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEtUlEQVQ4y01VbUxbZRQ+t1Bm2PicA+0Q2WJM/O0vE5f9848mYIxEcB1Q+knbe/t5u5aWFkrRaGewuFDiNhHovW35LISPwIKDZTJjtE4xkWQON2d0mgyny9iI83rObTU2Obk3773vc5/zPs9zCu2sAO1sAuiqtoyClu65hLKdEyq1NuEwVq3WlqzT2sS63L2gwmfl+E4BFhjsSdDgHk0eIw+GC1YBAqFlBBMOajnhaZ1drNE7xEMGZ7Lc5EyVYpXhfQWuVels4lP0Du4r03EinOwYywMmQEbVWBPQZhYZBFPpkIXBkazocKeKWX68yOWbVvq7M4W+YKbQ6Z1SWvnxfR2u1H4EPohs63BPlcE5Aq1mxCGGassIBLtXiJkKX6gxupIHOM9EUSi8VDA1scncuHYPYkNZZjS5Bdtbv0MikWX8ofkCAjY6k6UyU044hFfQ20QALZeQ2yRmJgSzecaVQ4OfKXbvPwJJksAamAd3eB3CA1ng+y7Ia7/8vAvvnV5TsHy6CEHLZKasUII4QGBK+gq1ScwIjDZRWTqXGT6yBu7e9aP+6EZ5IHoFLP5VeCDdgd3dPYhG1xTEVO9IEsNaFIkhwEoSgM6M2nz44G+YXr0IbdwMnLTMwqstaQXbuWB39yy+4gjNA+ubZPb2UrAn3YWbP/wBp7pmC02u1AEUCgGFEiBrkJokwNTEN0yO3R0wudOM0TWO18ljBmcqrLcPe03uhKrNHAeNZYj5t4uh+KcKizv9GJJ6ErGqCbCWrEFqfre5A9sXJDA4xhidbQSfjVYYHILbzCd9J/Sx4Gtv9jWzgQnYQaCXGwIA4IWVpe8ZzjNZhKQeJ3JApiWf+UOZwuvfPoJnjreD1SMwJrSC0fFRA+sV3vL2zvr4nkygxTgQqW8MPFff2AWN6j5GeijB1c9vgts3pTQ6UhVo/iNACSDTks+uIWDtcQ3wARECfXNwqifzAssPN+vZQZeO+9Bs7xyv9/YuPOuLLIKnZw6kHQm+2LgF5E8SNQ+YMzItbn71G8y0SND1zgoTiq5CJHb5Cf/bS2ozP/yiMzhzLNx/+Y3+s5ulp+NZiLx/RT7DhbkthtxBOuRbFlQUJ5JfSHwpHzb9PN3TjDc8B85A+iVX10TQG1kMYT0fjF6E4Lur/4kyMHAJRUmRKCq0ThXZppyySXGiBNxG0/4l3YPX1f3QpO6BXdxksp+1WD1ik70zDb7wLH6uQQb7Ovsrw/szhWjuEiRGidkPGpwaZGzKJrGkBNxH09IGte4DRtNxBlpNscPtlnglFjRr4/Kzn279Cb2RFdkyertYjRg1Tdx5Soo8duT4UDYpTpSAG9fv5tLCnwNNRwx0liFwBQV57Wr2NkNgVnd6n8EpohjCEcQolqcNzTNsmVqvIqaUTWLqxQTE4xuKS5/8yJwZXGLOnV9nVpe3mRieGbVJzGQwTp44FVqcNDQg5DlG88zo/BjkqYFMSTGKE20i05LPyAWkJglAZya3ScwIjBvDc05AK5sHpGoxi/IXaGpQ0MlOFCdKAJmWrEUfktVEAejMsMViYkZgbTKOkB+w+dLbksSSioYtKVed+xsQj5Jp5Xs8GlLzhD03obU4sdv+h/EPsbi7Iqfeg68AAAAASUVORK5CYII=)![](/static/1b87ba5dd8a4dda4d8d17e472bd9cefb/002c1/footer_ethereum.png)
+
+订阅
+
+[ ](https://twitter.com/EthereumCN)[ ](https://discord.gg/KUywx3JJJU)[
+](https://i.ibb.co/mBgmDgF/footer-wechat.webp)[
+](https://github.com/EthereumCN)[ ](Mailto:eth@ecn.co)[
+](https://www.ethereum.cn/rss.xml)
+
+蜀ICP备2021001286号 ](https://beian.miit.gov.cn/)
+
+Ethereum Community Network
+
+以太坊社区网络
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAABcRAAAXEQHKJvM/AAADm0lEQVQ4yyWU1yv9YRzHnzulKLkR5QLxS1aJyDw2WdkS4Zinc+yRvcLJ3nvvHSG7jBtKVi7IhaRcuBDlD/i9vs734uv7eD6f53mvzxHm5uZRUVHBwcEREREODg6Ojo7W1tb6+voWFhYeHh7//h49PT0bGxsvLy9TU9Po6GiKaaFR8GdycrK9vX1ubi4zMzM9Pb2np6epqamoqIgPuVy+urra2dm5vb39/Pzc3Nw8MDDQ0dGxuLgYExMjOKatre3p6amvr0+hUOTn5+fm5t7d3ZWXl/f393d3d3M074KCgq2tLbVaXVtbyylDQ0Ph4eHSzbOzs2xPTU1lZ2fX1dXV1NS8v78XFxfX19fPzMwolcqWlhb+T1l1dfX4+DiHLi8vR0ZGCmgAtaSkpLW1lYNcXFzc3d0BNj8/PzExwSWfn5+3t7egY8k7NDQ0KysLdM7OzkJHR2dwcPDj44PqjIyMhISEtLS00tLSiooK6r6+vg4ODqCwsLCAVFDw9/dPTEzc3d2VYNvZ2alUqunp6f39/evra5hTWllZaWRkFBISAjy2KLi/v2cJOnahvbOzw1kiMDAQSkgXFha2tra2vr6OkrCCv/rvgbaTk1NycjLSaqAh3uvrq6Q2DBsbG4+OjmDC+uLiguXw8HB8fLxMJmP38vIS28bGxjgXztAJCgpCFIIgdHV1CwsLQcIGp4IiLi6ut7eXbXTOy8sDCEbExsb6+fmdnJxAAXXOz8/d3NyElpYW2EgCYGjQ6KmRwNXVlXNfXl7oIWGUQRVHUlJScCEpKUkYGxuTjaurK7hRBH7aNjc3AUl1Q0MDgfn9/YUF+cVRX19f+IPUyspKYBeSHh8fQ4w2slFWVoZgYPv+/iaYaPH29sYpNFND8kkxIZWaCQnubWxsoIS3tzcosLSqqgrywFlaWgLF2dkZIPEPdra2thRgKsUCG4jL3t7ew8MDAeRaTkUwyFPEN8YyFSzR7+bmhg/yix3gF/b29iyo4M3loPj5+UFMDMvJyUEeJglSpIA7OJScIDhZkpphwogwg1xC/+joKMaenp5SzTZUierh4eHj4yOR7Orqopli0ib5rBlJpGewwAxbPGNUAgICcJIPS0tLEGHEysrKyMgIbYSfnw3yK40k3JgNxEBGAwMD3GZOmEe0ZQYxiR62IKxJHg/3kz/BrwnpYUR4o7y2tranp2dqaqqPj4+ZmRk3mJiYICyOahJONg0NDUkbsP8DL00/zmMjxB8AAAAASUVORK5CYII=)![](/static/57048268f8823dd1ea147faa8e568647/d786d/footer_wechat.png)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEtUlEQVQ4y01VbUxbZRQ+t1Bm2PicA+0Q2WJM/O0vE5f9848mYIxEcB1Q+knbe/t5u5aWFkrRaGewuFDiNhHovW35LISPwIKDZTJjtE4xkWQON2d0mgyny9iI83rObTU2Obk3773vc5/zPs9zCu2sAO1sAuiqtoyClu65hLKdEyq1NuEwVq3WlqzT2sS63L2gwmfl+E4BFhjsSdDgHk0eIw+GC1YBAqFlBBMOajnhaZ1drNE7xEMGZ7Lc5EyVYpXhfQWuVels4lP0Du4r03EinOwYywMmQEbVWBPQZhYZBFPpkIXBkazocKeKWX68yOWbVvq7M4W+YKbQ6Z1SWvnxfR2u1H4EPohs63BPlcE5Aq1mxCGGassIBLtXiJkKX6gxupIHOM9EUSi8VDA1scncuHYPYkNZZjS5Bdtbv0MikWX8ofkCAjY6k6UyU044hFfQ20QALZeQ2yRmJgSzecaVQ4OfKXbvPwJJksAamAd3eB3CA1ng+y7Ia7/8vAvvnV5TsHy6CEHLZKasUII4QGBK+gq1ScwIjDZRWTqXGT6yBu7e9aP+6EZ5IHoFLP5VeCDdgd3dPYhG1xTEVO9IEsNaFIkhwEoSgM6M2nz44G+YXr0IbdwMnLTMwqstaQXbuWB39yy+4gjNA+ubZPb2UrAn3YWbP/wBp7pmC02u1AEUCgGFEiBrkJokwNTEN0yO3R0wudOM0TWO18ljBmcqrLcPe03uhKrNHAeNZYj5t4uh+KcKizv9GJJ6ErGqCbCWrEFqfre5A9sXJDA4xhidbQSfjVYYHILbzCd9J/Sx4Gtv9jWzgQnYQaCXGwIA4IWVpe8ZzjNZhKQeJ3JApiWf+UOZwuvfPoJnjreD1SMwJrSC0fFRA+sV3vL2zvr4nkygxTgQqW8MPFff2AWN6j5GeijB1c9vgts3pTQ6UhVo/iNACSDTks+uIWDtcQ3wARECfXNwqifzAssPN+vZQZeO+9Bs7xyv9/YuPOuLLIKnZw6kHQm+2LgF5E8SNQ+YMzItbn71G8y0SND1zgoTiq5CJHb5Cf/bS2ozP/yiMzhzLNx/+Y3+s5ulp+NZiLx/RT7DhbkthtxBOuRbFlQUJ5JfSHwpHzb9PN3TjDc8B85A+iVX10TQG1kMYT0fjF6E4Lur/4kyMHAJRUmRKCq0ThXZppyySXGiBNxG0/4l3YPX1f3QpO6BXdxksp+1WD1ik70zDb7wLH6uQQb7Ovsrw/szhWjuEiRGidkPGpwaZGzKJrGkBNxH09IGte4DRtNxBlpNscPtlnglFjRr4/Kzn279Cb2RFdkyertYjRg1Tdx5Soo8duT4UDYpTpSAG9fv5tLCnwNNRwx0liFwBQV57Wr2NkNgVnd6n8EpohjCEcQolqcNzTNsmVqvIqaUTWLqxQTE4xuKS5/8yJwZXGLOnV9nVpe3mRieGbVJzGQwTp44FVqcNDQg5DlG88zo/BjkqYFMSTGKE20i05LPyAWkJglAZya3ScwIjBvDc05AK5sHpGoxi/IXaGpQ0MlOFCdKAJmWrEUfktVEAejMsMViYkZgbTKOkB+w+dLbksSSioYtKVed+xsQj5Jp5Xs8GlLzhD03obU4sdv+h/EPsbi7Iqfeg68AAAAASUVORK5CYII=)![](/static/1b87ba5dd8a4dda4d8d17e472bd9cefb/002c1/footer_ethereum.png)
+
+订阅
+
+[ ](https://twitter.com/EthereumCN)[ ](https://discord.gg/KUywx3JJJU)[
+](https://i.ibb.co/mBgmDgF/footer-wechat.webp)[
+](https://github.com/EthereumCN)[ ](Mailto:eth@ecn.co)[
+](https://www.ethereum.cn/rss.xml)
+
+[ 蜀ICP备2021001286号 ](https://beian.miit.gov.cn/)
+
