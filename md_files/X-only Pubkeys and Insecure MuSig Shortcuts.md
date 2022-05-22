@@ -1,0 +1,83 @@
+  * [![](/images/bird.png)](https://twitter.com/n1ckler "follow on twitter")
+  * [![](/images/GitHub-Mark-64px.png)](https://github.com/jonasnick "github repo")
+  * [![](/images/rss.png)](/atom.xml "subscribe via RSS")
+
+  * [Blog](/)
+  * [Code](https://github.com/jonasnick)
+  * [About](/about)
+  * [Archives](/blog/archives)
+
+# X-only Pubkeys and Insecure MuSig Shortcuts
+
+Nov 19th, 2019
+
+There are two posts I recently contributed to [Blockstream's engineering
+blog](https://medium.com/blockstream) expanding on the talk I gave at [The
+Lightning Conference 2019](https://www.thelightningconference.com/). Cross-
+posting them here because they fit the theme of this blog:
+
+  * [Reducing Bitcoin Transaction Sizes with x-only Pubkeys](https://medium.com/blockstream/reducing-bitcoin-transaction-sizes-with-x-only-pubkeys-f86476af05d7)
+
+> This article is about the recent introduction of so-called x-only pubkeys to
+> the Bitcoin Improvement Proposal [BIP-
+> schnorr](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) […]
+> significantly reducing the weight of every transaction output without any
+> loss in security. By removing the Y-coordinate byte from compressed public
+> keys currently used in Bitcoin, public keys end up with a 32-byte
+> representation. We are going to look at how it works, why that’s useful, and
+> sketch a security proof.
+
+  * [Insecure Shortcuts in MuSig](https://medium.com/blockstream/insecure-shortcuts-in-musig-2ad0d38a97da)
+
+> Using BIP-Schnorr-based multisignatures, no matter how many signers are
+> involved, the result is a single public key and a single signature
+> indistinguishable from a regular, single-signer BIP-Schnorr signature. This
+> article is about optimizing implementations of multisignature protocols and
+> why seemingly harmless changes can totally break the security.
+
+Posted by Jonas Nick Nov 19th, 2019 [bitcoin](/blog/categories/bitcoin/),
+[crypto](/blog/categories/crypto/)
+
+[« Secure protocols on BIP-taproot](/blog/2019/06/25/secure-protocols-on-bip-
+taproot/ "Previous Post: Secure protocols on BIP-taproot") [MuSig-DN: Schnorr
+Multisignatures with Verifiably Deterministic Nonces
+»](/blog/2020/11/29/musig-dn-schnorr-multisignatures-with-verifiably-
+deterministic-nonces/ "Next Post: MuSig-DN: Schnorr Multisignatures with
+Verifiably Deterministic Nonces")
+
+# Recent Posts
+
+  * [MuSig2: Simple Two-Round Schnorr Multisignatures](/blog/2020/11/29/musig2-simple-two-round-schnorr-multisignatures/)
+  * [BIP-{Schnorr,Taproot,Tapscript}](/blog/2020/11/29/bip-%7Bschnorr/)
+  * [MuSig-DN: Schnorr Multisignatures with Verifiably Deterministic Nonces](/blog/2020/11/29/musig-dn-schnorr-multisignatures-with-verifiably-deterministic-nonces/)
+  * [X-only Pubkeys and Insecure MuSig Shortcuts](/blog/2019/11/19/x-only-pubkeys-and-insecure-musig-shortcuts/)
+  * [Secure protocols on BIP-taproot](/blog/2019/06/25/secure-protocols-on-bip-taproot/)
+
+# Categories
+
+[algo trading](/blog/categories/algo-trading) [Astar](/blog/categories/astar)
+[bitcoin](/blog/categories/bitcoin) [blender](/blog/categories/blender)
+[C](/blog/categories/c) [consensus](/blog/categories/consensus)
+[Cpp](/blog/categories/cpp) [crypto](/blog/categories/crypto)
+[cryptocurrencies](/blog/categories/cryptocurrencies)
+[evolution](/blog/categories/evolution) [genetic
+algorithms](/blog/categories/genetic-algorithms)
+[golang](/blog/categories/golang) [java](/blog/categories/java)
+[javascript](/blog/categories/javascript) [kinect](/blog/categories/kinect)
+[LaTeX](/blog/categories/latex) [lightning](/blog/categories/lightning)
+[machine learning](/blog/categories/machine-learning)
+[MarioAI](/blog/categories/marioai) [monero](/blog/categories/monero)
+[neuro](/blog/categories/neuro) [nix](/blog/categories/nix)
+[pragmatics](/blog/categories/pragmatics) [privacy](/blog/categories/privacy)
+[Psycholinguistics](/blog/categories/psycholinguistics)
+[python](/blog/categories/python) [R](/blog/categories/r)
+[racket](/blog/categories/racket) [regression](/blog/categories/regression)
+[security](/blog/categories/security) [signaling
+games](/blog/categories/signaling-games) [snake](/blog/categories/snake)
+[source engine](/blog/categories/source-engine)
+[Sweave](/blog/categories/sweave)
+
+This work is licensed under a [Creative Commons Attribution 3.0 Unported
+License](https://creativecommons.org/licenses/by/3.0/deed.en_US). 2022 - Jonas
+Nick - Powered by [Octopress](https://octopress.org)
+
