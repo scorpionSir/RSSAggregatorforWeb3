@@ -1,0 +1,180 @@
+[![logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABj0lEQVQoz12Sv0vDQBTHT0HrD4QWRJRLi3QQOojon1JxUhcFQQeViknrJjiIglgRhW4OTiLSWXB10MnJoToI0lp6ESu1TZNc/L7LFcGDD+8u4X3y3r0wKeUUeAqwEBVYZa9amhCb0bydjbdti/vAsy0jALPYp0EZSODq91W8W2AQPGqZg9CUvkvGUv08fSEywwGESDIaoAW+QQHJbWEq+Y+mqc8OCV3wASZBzP+qJJ8ZY2JrpKgqMvk8Yh8kvL6b6sZ+WZicki/BIBgFUVCk5ywsTr4ikvxI+l4F+w20e21bcQiNGUiZ2OZdSGLYr+jW9+hcw3NUx/DBY6pSCcELZCQ8RMtvOK+K9aErO5ugCqdJCDESVVzSwgMSQhLRwjMl1C1Xw+H4Mf/zPQFhxN5J3qrEbGJRmGMDwjIMYfF+yDNauK+FvVp4qlqG6F4PpY3goMIWxebdiVdbi1CiDC+dtwBdfmcA+X/CQqflFGQP6nf5+20C6blB4yYnRW7chcihCYbwFk0ZzAES9eiIq+DiFyR9m3ZUxiupAAAAAElFTkSuQmCC)![logo](/static/9c635c914229a850d1a9fd284014bdd0/65e33/eco_logo.png)](/)
+
+  * [新闻资讯](/)
+
+  *   * [零时学院](/c0llege)
+
+  * [开发者门户](/develop)
+
+  * [生态漫游](/ecos)
+
+Ξ
+
+Search by [](https://www.algolia.com/?utm_source=react-
+instantsearch&utm_medium=website&utm_content=&utm_campaign=poweredby)
+
+## 激进ｘ变革：当Vitalik遇上Weyl
+
+以下是与Vitalik Buterin和Glen Weyl的邮件通讯有关的一系列内容，主要是以“激进×变革”为主题而交换的一些想法。
+
+* * *
+
+GW
+
+Glen Weyl 2018-10-09
+
+来源 | [@glenweyl](https://medium.com/@glenweyl/a-radicalxchange-between-
+vitalik-buterin-and-glen-weyl-328d8ad088cf)
+
+作者 | Vitalik Buterin, Glen Weyl
+
+  
+
+# 激进Ｘ变革：当VITALIK遇上WEYL
+
+如下列出的是Vitalik Buterin和我在前一天对“激进x变革”的话题所交互的一系列邮件。
+
+它们（这些邮件中所提到的内容）有价值的原因在于：1.这些内容，虽然在其它场合还没有被研讨过，但是我们认为很重要；2.这些内容就最新议题呈现了我们最新的想法；3.这些内容体现了一些客观存在但不为很多人所喜欢的现实，就好比正在被制作的香肠一样——然而还是有一些人会对此感兴趣。
+
+然而，有必要注意到的是：这一系列的交流是内部交流，因此会涵盖高度的专业性内容；这其中，还有很多谈话内容没有被全然融入到“激进×变革”社会运动的理念、经济学、社会学、知识史学、哲学和密码学，因而会难以为人所理解。
+
+  
+
+### Vitalik Buterin
+
+我觉得我应该尽我的最大可能，将这些应该被更好地强调的话题用语言表达出来。这些话题不尽然是全然有形的想法，但它们都是我认为值得去思考的东西，而且我觉得我们之前对它们的思考还不够多。
+
+_**１.抗合谋**_
+
+抗合谋，或者是从更广义的角度看，不再将一种特权赋予人们——这种特权会使得人们拥有更加完善的资格来进行协调（我之前谈到过这个话题，但是想把这个话题扩展到我所关切的领域）。比如说，如果QV/LR（二次方投票/自由激进）的模式在线上使用，而你又有一个四人的小组，你可以把所有人聚在一起，打开他们各自的手提电脑，这样一来每个人都可以看到其他人做出的贡献。如果这样的话，在每个人都同意贡献他们所愿意贡献的最小值的情况下，组内的每个人将会做出多出四倍的贡献。就算是这一系列的贡献行为是在展台式投票设置中完成的，在每个人都关心一些议题但是一个人关心得特别多的情势之下，一组一组的人将会目睹这样的情形：有一个人确保着每个人将一大笔钱放在展台设置中，这样一来，组内的每个人将会感到为荣誉所系，将基于这种给定的原因而更多地进行社群参与，为社群做贡献。
+
+一人一票机制（1P1V）的确有这样的问题，但这还不算大问题，毕竟存在一个天然的上限，使得每个人会在既定的组别中投票，这样我们还是可以通过最大限度地简化投票，来试图让每一个人接近这个上限（其实最极端的做法无非是强制投票，但是你可以通过降低成本来获取大多数收益。举例来说，让人们获得更多和专业素质更优的投票站，以及把投票日设为假日，都是契合这一要求的做法）。有了二次投票/自由激进模式，再加上我先前提到过的技术应用，系统内的各个小组就会带着原来的两倍好的能力，去追求他们的目标，就能得到原来两倍的效率。对我而言，我觉得这种潜在的扭曲水平非常骇人。
+
+  
+
+_**２.社会性动机的角色**_
+
+社会性动机的角色：对经济学比较大的批判在于，人类有很多种动机，这些动机不得不以直接且具体的方式，来参与到与他者所共有的关系的构建过程中；这些动机包括分化、归属、公正、主导、对抗屈服，等等。种种动机使得经济学充满着问题，因为这些动机意味着人们甚至在不用暴力和欺诈的情况下，依旧有大量的机会互相施加负外部性（举个例子：我买一件时髦的衣服、设计精致的网站或者大学文凭，这些会使得我更令人尊敬受到更多人的青睐，但是注意力是有零和博弈属性的，因此这样子会让人们更少注意到你）。这样一来，着眼于最优解的数学证明，会以潜在的形式，错误地预设了没有人可能制造这样大量的外部性。然而在这种数学证明存在这一预设和缺失的境况下，这些机制的内在结构依旧可以为人所窥见（再比如，人们在了解到他们赚得比同事少很多的情况下，他们会感到沮丧）。
+
+经济层面的宏大意识形态希望自己对引导社会有用，那就应该具备这样一些概念：这些概念是用来说明经济领域同其它的社会领域的互动形式的。既然如此，有如下问题亟待考虑：在具备着各种激进的市场观念的案例中，要如何做到这一点呢？激进市场观念介入到（经济领域和其它社会生活领域的互动）了吗？我们可以通过使得投票和贡献活动变得私密和不可证明来回避这些问题的大多数吗？社会动机可以被相得益彰地充分利用，从而让激进的市场观念做得更好吗？这是在真实而即时的现场试验中，我们才能真切体会得到的东西吗？
+
+  
+
+_**３.理性忽视和非理性（的二元关系）**_
+
+![](https://i.ibb.co/NrRLfrM/rxc4-8932b3a360.jpg)
+
+理性忽视和非理性（的二元关系）：布莱恩·卡普兰（Bryan
+Caplan）的论述基本上是这样的：人们的投票对社会的影响不可忽视，以至于就算是那些有待学习领会的投票方式能在实际上将他们所关切的问题放大到最大程度，他们也基本上没有什么动机去学习领会投票的方式。相信这一点，并不以相信原子主义的自私品质为条件；包含了社会性动机的事物有这样的属性：就算是社会性动机存在，它们和在很大意义上富有意义而又稳定自洽的道德体系是极其无关的。
+
+例如，如果一个堪萨斯农民相信苹果是扁的，他会因此为农事所困；但是对于是否应该相信人为因素所导致的全球气候变暖这个问题，他将会带着为人的天性去做出决定。他在这件事情上的最终态度更可能取决于人性的欲望，以使他融合到他的朋友群体中，而非取决于和真相的直接联系。
+
+我所理解的是，如果从数学层面看待，这一问题在二次方投票/自由激进机制中会比在常规投票中还小，毕竟人们可以走向专业化，而且当人们在引导事情发生中扮演了更显著的角色时，人们可以更加轻松容易地明白具体变化所产生的结果。然而，正如你们所倡导的，如果类投票机制会在社会中扮演更重要的角色，那么为了应对范围已经扩大了的问题，这种改进对于解决这些问题的力道足够吗？
+
+我想，在具备更多符合风险共担原则要素的情境下，审视各种治理提议将会是引人入胜的事情。这个也是我喜欢你对移民入境检查的提议的部分原因。这些提议包括：如果受赞助的移民犯了罪，移民赞助者应该被罚款。
+
+  
+
+_**４.物质性权力中心化的效果**_
+
+物质权力中心化的效果：当涉及到那些更复杂的专利权系统时，有一点令我感到害怕：这些系统要求更复杂的中心化基础设施，就包括对个人隐私活动的监视，而且还要求这些主张能够正确无虞地生效实施。税收也已经有了这样的问题（不妨回忆一下亚当·斯密对收入税不可能性的论述，因为他相信：为了让收入税有强制性，这些收入税就会依赖于某一对私人生活的入侵水准，而且这一入侵水准是令人难以接受的）。基于这一考量，我还想知道的是：我们已有的各种提议，一旦用于改变这些问题，将会使得情况变得更糟糕还是更好。
+
+尽管我在其它的情形下会有所顾虑，但我还是青睐哈柏格（Haberger）式的税收，因为这些税收不要求基础设施去监视是否存在未经申报的交易。比如，你曾评论到：你对移民入境检查的提议将可能会要求移民规则在实施进程中更具强制力，从现实角度看就意味着要通过更强劲的努力，来搜寻并驱逐那些逾期居留的人，这当然要求大量且多样的监视。
+
+总而言之，我并不觉得激进市场理念会在总体上进展糟糕。但是，我的评论将会是：和现实的情况比较，不依赖于全景敞视显然应该是在更深程度上解燃眉之急的事情。
+
+  
+
+### Glen Weyl
+
+总而言之，我的视角是：这些议题不错，而且我有意将增加一些我本人的想法，但是我不把其中的任何一点看作是一种阻碍因素。也就是说，在短期内它们对”激进ｘ变革“模式的试探性实施构不成阻碍……对于学习体会新思想和为日后的增益改进打基础而言，这些议题看上去不错。
+
+1.我觉得这些议题在围绕着共谋和协作两点时，共同构成了某一关键的议题。在任何情况下，这些议题都很关键，而并不只是在二次方投票/自由激进模式下才显得关键。它们是如此关键，以至于可以成为“自然的法则”（类似于人们可以在不多于X人的群组中进行协调）。我觉得通过对功能的适应活动，我们可以解决这些问题。有一个问题在于，人们的协调能力是非常多变的，也是偶然的；并且这些活动，包括从亲缘关系到宗教活动都要动用一系列的机制。对于我来说，我感觉两次投票/自由激进的路径有一种优势：它至少能够讲清楚什么是最优性；在跨群组协作的论域内，应该避免什么。
+
+在我们当前的由一人一票和资本主义混合构成制度下，协调活动并不是没有批判性的，也并不是一成不变拘泥于一格的。我要主张的是：激励合作、建设网络、塑造阶层的团结等等这一切依赖于能力；源自能力的每个因素就是在按照这种方式，来扮演它的角色；而且，每个因素都是权力的初始来源。但是，系统是非常不清晰的，以至于我们缺乏去相信这些事情的理由：我们正在离最优解越来越近的情势中；或者是存在着清晰明确的方法，来推动我们去追求最优解。
+如果存在一个系统，能使得最优解以外部坐标为模，那么这似乎是一个方向正确的步骤，但是这将会要求增加工作量：要么为了破坏系统外部的协调，要么为了增进对系统的理解而追求系统内部的平衡。
+
+2.尽管我事先没有同你提及过，但毋庸置疑的是：这是一个非常关键的要点，也是我正在从事工作的焦点。在和二次方投票/自由激进模式相关的问题上，我的确不觉得这是一个主要的问题。从根本上而言，我有一点就是不太明白：为什么在二次方投票/自由激进的语境下，秘密投票会使得事情更糟糕，或者是会让事情得不到妥善处理。就实际情况来看，也就是从投票制度虽然存在，但亟待完善的这一语境来看，现今对紧张情形的偏好，例如示威抗议，显得更为糟糕。如果存在着私人的方式，来处理这些事务，那么这似乎是一个很大的进步。
+
+然而，就我正在做的研究来看，我觉得可以为信号理论所摄取的因素就算不是全部，也很多了。有这样一种对信号理论的方案，几乎总是为人所忽略的，那就是主张信号活动应该被课税。对SAT分数课税，对标准的白人流行的英语课税，等等。这一政策方案似乎执行起来有点困难（就算是我们在算法学方法上取得了进展，但毕竟你需要去衡量各种位阶外部性），但是如果可行的话，这样做看起来完全良好并且非常激进。这将会增进效率，重新就以某种方式人们常言的“特权”进行再分配（比如“白人特权”）——这种方式恰恰是某些左右翼人士的呼吁，虽然他们来源于各种各样的文化范式，彼此之间又不相融，但是他们要求的方式和前文对“特权”进行再分配的方式恰恰如出一辙。在社会学领域，有一种能力叫做“文化资本”，这种能力根据你的战略性优势，被用来理解应付意义制造系统。我和Kadeem
+Noray在共同合作撰写一篇涉及此问题的学术论文，论文的名字叫《文化差异信号理论》，也在共同撰写一本题目为《有效的文化资本税》的白皮书。如果你对此有兴趣不妨告诉我。
+
+3.还有另一个在我们的工作中没有被涉及到的要点，但是我决不相信，在当前现状下存在的机构会将这些事情处理得更好。基本上来看，因为这一话题，你不能拥有很多东西，比如直接民主制,或者是对“集团”直接民主式控制。你需要更多的中枢性群组来应对这一挑战。相对于信息集聚的异质性，信息获取存在一种弹性，而且凝聚集中化的最优程度取决于这种弹性。与此同时，我觉得在这一问题上没有独一无二的解决方式。也正因为如此，我对某种类“流动性民主”系统（尽管不是流动性民主本身）有着强烈的偏好，这种类型系统允许最优的组织自总体中有机涌现。
+
+我的确相信，自由激进模式大概将会引致我前面所说的情形，理性忽视将会为有组织的规模经济提供一个确切的根据，也会为我反对包括数据管理问题在内的全中心化框架提供确切的理由。然而，依然会有会有更多的研究亟待完成，来解决这两个问题：信息联合获取的问题，以及通过信息联合获取将事物结构化的方法。还让我产生疑虑的判断是，“终极算法”依然存在。不妨从事物的另一面思考一下，虽然情况会因具体情形而异，我们还是应该坚持一种一劳永逸式的结构，像议会制度或者总统制度。此外，哪怕资本主义机制已经体现出它效率不充分的特征，以至于这种情况会任由某个暴君能够凭借其主导地位争夺大量资源，我们还是有必要明确地坚持这样一种机制。我觉得自由激进理念在处理这种问题上表现良好，但是我们还是要观察后效。
+
+4.我对最后一点（Vitalik对物理性权力的论述）强烈认同（尽管我觉得物理权力的内在含义非常微妙，接下来我会谈这一点）。再重复一遍，实际上我觉得全面的激进市场（overall
+RM）主张会改进这方面问题，但是改进的程度还不够。我开始逐渐倾向于认同哲学家丹尼尔·艾伦（Danielle Allen
+）的多元公民主义（polypolitanism），也是基于这样的上述理由。激进自由的原则也支持该项主张。
+
+想象一下，我们已经具备了激进自由，并使之成为全球性原则，但是我们具备的一大波多元社群遍布于不同的层次，有着不同程度的力量和出资能力，并且在做各式各样的事情。人们可以不再为地理因素所限制，
+来为社群做贡献到或者加入到这些社群中。当每一个社群具备了某种强制力时，一定量的强制力也会是社会性的。原因在于：在系统性的终极规则被视为合法的情况下，一旦有人被认为在破坏规则，他周围的其他人会要求这些逾越规则的人接受规则（这和Harberger的设计一致），乃至周围的人会受到这样做的激励。这一点可能在移民系统问题上更真确;我们或许有必要对此考虑一下。
+
+然而在这一多元公民的世界,
+合乎情理的移民系统可能会比我在书中探讨到的有更丰富的内涵，毕竟，这将会牵扯到几种不同的治理／集群的组织方式。确切地讲，它的外表特征和它运行的方式都需要经过很多努力来搞清楚，但是我想，最终它所指向的是这样一种境况：“中心的权威”观念基本上被瓦解了。这个世界上，中心的权威不复存在。特别地，把民族国家和那种“中心的权威”看作是相似类同的，这是不合理的近似估计。问题的关键在于，我们有很多历史遗留下来的制度，但是它们的适应能力是有问题的，以至于我们需要一种更灵活的态度，在广义范围上的各个层次的组织，去参与建设和解构。
+
+但是，无论在任何情势下，“物理性权力”都是一个非常复杂而且意义模糊的概念。如果希特勒告诉某些人去做某事，他们会如此行动，不是因为希特勒有任何的物理性权力，而是基于他们的预期：这种预期解释了如果他们不去遵守，其他人将会如何做。在这一意义下，每一个社会组织都是一个泡沫。继而，这使得区块链和区块链危及合法性的争论两者息息相关，并且引人入胜。
+
+让我再补充一条我觉得是至关重要的问题。目前我仍在努力寻找这个问题的解决对策，还会加大研究力度。当下存在这样一个想法，认为应该通过共有产权自行估值税收（COST,common
+ownership self-accessing
+tax）分配资金，并将资金作为社会红利。我认为这样的想法不够明确，完全是杂牌拼装货，是很危险的。举个例子想象一下：一个社群可以影响到个体的估值行为，并且比起该社群或者内部的某一成员希望从当前的所有者手中所购买到的份额，这个社群实际上具备着更多（或更少）的份额；或者是社群的内部成员想从现有的份额所有者手中买到资产。这就会导致社群想让社群成员往高（或往低）报价，就会引起潜在的勾连问题，而且这个问题也是你所提到过的。
+
+总而言之，对于我而言，所有权的份额需要尽可能地跨社群或者在个体间多加配置，并要和某种概率形成适当的比例——这个概率是一个令个体或者社群最终成为有效率的（从折价现值层面讲）所有者的概率。自然地，在流向个体的资金流多变而不均衡，公共产品集资活动在社群内部和社群层面活动的条件下，这会引发流向个体的资金流和公共产品集资过程结合，也就可以避免扎伦(Jaron)表示过的对中心同质式资金流的忧虑——这一顾虑也是我多次分享的。这样做也有利于提高效率，减少陷入极权主义的风险，也就是更稳健了。如何把所有内容详细列举出并且让这样的想法投入运作，依然是非常磨人的。精致的类同性结论似乎应该在不远处的地方，但是我还没有完成这一环节。无论如何，我觉得从长远发展角度来看，这一点很重要。
+
+最终，通过持续几周的学术议论，这一话题终于进入了更为广泛的领域。就在最近我感受和意识到了——特别是伴随着自由激进主义，我感受到了一点并且在这一点上做出突破：一个内部衔接性如此之强，以至于所有的未成熟的领域都凝聚在一起的政治经济学框架。伴随着这一框架的产生，不但这些未发展成熟的领域可以凝聚在一个框架里面，而且在当下，它们理论基础的失败可以因此显得清晰透彻。
+
+基本上看，自由激进（连同信号议题）强调了：当前经济话语，连同着它的极端个人主义的视野，都是不可救药的。也就是说当前的经济话语并没有反映出每一种组织社会生活的方式；我们所生活的社会，是一个这样的社会：在这个社会里面，几乎所有东西都至少有一部分产生于回报性增长科技（从家庭到教会、网络、政府、企业等等都是这样）。经济学却承担了基础性和初始性功能，它指向着全然个人主义的视角，而这种视角只在在收益递减情况下才行得通。一旦面临着收益增长的情形，它只能诉诸市场的力量或者其它的低效杂牌因素。这一传统的理论框架是不太合理的，一旦你用这种方式审视事务的话，我们就会用经济学对各种标准化的问题抄不应该抄的近道。
+
+就最近的几个星期，我都在和经济学家、社会学家和哲学家在讨论，感觉好像在用一把折叠刀穿越一片森林。这一视角使我能够从更广泛的角度看待问题（虽然事物的本来面目依然模糊），并且就像是有了一众任我指挥的伐木队伍。令人感到庆幸的事情是，你不需要过于脱离经济学的形式主义风格，只要把问题放在合乎逻辑的结论里面，然后在基础且实质的地方作结。这一终结之处，也恰恰是很长一段时间内，许多社会学家、人类学家和政治科学家曾经去过的地方。
+
+但是，这样的理论框架，则既缺少了匹配、衡量的能力，也缺乏适度进行发明创造或描述说明的能力，因为它们不够讲求形式主义。就算是特定的激进市场观念存在一些缺陷，需要纠正，我也真诚地相信：我们在推动一种强大而全面的政治经济观，并且这种观念和新自由主义的范式有所不同。这就好比边际革命虽然来源于过去，但却能够和过去的理论平行存在。基本上，前边际革命范式曾依赖于线性生产函数，并没有容纳边际量大于平均量的情况，因此也不能处理利润的问题。但是机缘巧合的是，边际量小于平均量（公共物品）的情况也一度丢失了，一个核心的理论问题也继而形成了，我们可以在实际层面上强调一下这一点。这个恰好是George和Walras在追寻的议题。我觉得我们现在可以真正把握这个话题。
+
+  
+
+### Vitalik Buterin
+
+在处理规模报酬增长的情形方面，自由主义表现不佳——这绝对是一个好的想法。同时我要在更广义层面上主张：基于均衡、部分最优、导数的经济学，在多元均衡问题以及协调性问题的情景中，没有提供很好的应对思路。
+
+面对着存在规模报酬增长的活动时，要不要开始从事这样的活动，这只是在若干模式中的一个例子。增加或者减少公共假日（正如节假日时间会在你与你的朋友们同时都处于休假的情况下变得更有价值），调整变更时区，将一些语言的不规则动词规则化等，都属于类似的问题。具备更强大社会配置，以达成那些种类的共识，仿佛是非常有价值的。如果对用于中心控制的节点没有要求，建好这些配置，也似乎很有价值。这两者似乎很有价值的原因在于，中心机制的控制可能被滥用，而且还在于有的时候（例如可以想一想那些跨机构和跨国的协议标准）不存在一个可以在特定的任务中胜任的中心权威。
+
+  
+  
+
+声明：ECN的翻译工作旨在为中国以太坊社区传递优质资讯和学习资源，文章版权归原作者所有，转载须注明原文出处以及ethereum.cn，若需长期转载，请联系[ethereumcn@gmail.com](mailto:ethereumcn@gmail.com)进行授权。
+
+* * *
+
+Ethereum Community Network
+
+以太坊社区网络
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAABcRAAAXEQHKJvM/AAADm0lEQVQ4yyWU1yv9YRzHnzulKLkR5QLxS1aJyDw2WdkS4Zinc+yRvcLJ3nvvHSG7jBtKVi7IhaRcuBDlD/i9vs734uv7eD6f53mvzxHm5uZRUVHBwcEREREODg6Ojo7W1tb6+voWFhYeHh7//h49PT0bGxsvLy9TU9Po6GiKaaFR8GdycrK9vX1ubi4zMzM9Pb2np6epqamoqIgPuVy+urra2dm5vb39/Pzc3Nw8MDDQ0dGxuLgYExMjOKatre3p6amvr0+hUOTn5+fm5t7d3ZWXl/f393d3d3M074KCgq2tLbVaXVtbyylDQ0Ph4eHSzbOzs2xPTU1lZ2fX1dXV1NS8v78XFxfX19fPzMwolcqWlhb+T1l1dfX4+DiHLi8vR0ZGCmgAtaSkpLW1lYNcXFzc3d0BNj8/PzExwSWfn5+3t7egY8k7NDQ0KysLdM7OzkJHR2dwcPDj44PqjIyMhISEtLS00tLSiooK6r6+vg4ODqCwsLCAVFDw9/dPTEzc3d2VYNvZ2alUqunp6f39/evra5hTWllZaWRkFBISAjy2KLi/v2cJOnahvbOzw1kiMDAQSkgXFha2tra2vr6OkrCCv/rvgbaTk1NycjLSaqAh3uvrq6Q2DBsbG4+OjmDC+uLiguXw8HB8fLxMJmP38vIS28bGxjgXztAJCgpCFIIgdHV1CwsLQcIGp4IiLi6ut7eXbXTOy8sDCEbExsb6+fmdnJxAAXXOz8/d3NyElpYW2EgCYGjQ6KmRwNXVlXNfXl7oIWGUQRVHUlJScCEpKUkYGxuTjaurK7hRBH7aNjc3AUl1Q0MDgfn9/YUF+cVRX19f+IPUyspKYBeSHh8fQ4w2slFWVoZgYPv+/iaYaPH29sYpNFND8kkxIZWaCQnubWxsoIS3tzcosLSqqgrywFlaWgLF2dkZIPEPdra2thRgKsUCG4jL3t7ew8MDAeRaTkUwyFPEN8YyFSzR7+bmhg/yix3gF/b29iyo4M3loPj5+UFMDMvJyUEeJglSpIA7OJScIDhZkpphwogwg1xC/+joKMaenp5SzTZUierh4eHj4yOR7Orqopli0ib5rBlJpGewwAxbPGNUAgICcJIPS0tLEGHEysrKyMgIbYSfnw3yK40k3JgNxEBGAwMD3GZOmEe0ZQYxiR62IKxJHg/3kz/BrwnpYUR4o7y2tranp2dqaqqPj4+ZmRk3mJiYICyOahJONg0NDUkbsP8DL00/zmMjxB8AAAAASUVORK5CYII=)![](/static/57048268f8823dd1ea147faa8e568647/d786d/footer_wechat.png)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEtUlEQVQ4y01VbUxbZRQ+t1Bm2PicA+0Q2WJM/O0vE5f9848mYIxEcB1Q+knbe/t5u5aWFkrRaGewuFDiNhHovW35LISPwIKDZTJjtE4xkWQON2d0mgyny9iI83rObTU2Obk3773vc5/zPs9zCu2sAO1sAuiqtoyClu65hLKdEyq1NuEwVq3WlqzT2sS63L2gwmfl+E4BFhjsSdDgHk0eIw+GC1YBAqFlBBMOajnhaZ1drNE7xEMGZ7Lc5EyVYpXhfQWuVels4lP0Du4r03EinOwYywMmQEbVWBPQZhYZBFPpkIXBkazocKeKWX68yOWbVvq7M4W+YKbQ6Z1SWvnxfR2u1H4EPohs63BPlcE5Aq1mxCGGassIBLtXiJkKX6gxupIHOM9EUSi8VDA1scncuHYPYkNZZjS5Bdtbv0MikWX8ofkCAjY6k6UyU044hFfQ20QALZeQ2yRmJgSzecaVQ4OfKXbvPwJJksAamAd3eB3CA1ng+y7Ia7/8vAvvnV5TsHy6CEHLZKasUII4QGBK+gq1ScwIjDZRWTqXGT6yBu7e9aP+6EZ5IHoFLP5VeCDdgd3dPYhG1xTEVO9IEsNaFIkhwEoSgM6M2nz44G+YXr0IbdwMnLTMwqstaQXbuWB39yy+4gjNA+ubZPb2UrAn3YWbP/wBp7pmC02u1AEUCgGFEiBrkJokwNTEN0yO3R0wudOM0TWO18ljBmcqrLcPe03uhKrNHAeNZYj5t4uh+KcKizv9GJJ6ErGqCbCWrEFqfre5A9sXJDA4xhidbQSfjVYYHILbzCd9J/Sx4Gtv9jWzgQnYQaCXGwIA4IWVpe8ZzjNZhKQeJ3JApiWf+UOZwuvfPoJnjreD1SMwJrSC0fFRA+sV3vL2zvr4nkygxTgQqW8MPFff2AWN6j5GeijB1c9vgts3pTQ6UhVo/iNACSDTks+uIWDtcQ3wARECfXNwqifzAssPN+vZQZeO+9Bs7xyv9/YuPOuLLIKnZw6kHQm+2LgF5E8SNQ+YMzItbn71G8y0SND1zgoTiq5CJHb5Cf/bS2ozP/yiMzhzLNx/+Y3+s5ulp+NZiLx/RT7DhbkthtxBOuRbFlQUJ5JfSHwpHzb9PN3TjDc8B85A+iVX10TQG1kMYT0fjF6E4Lur/4kyMHAJRUmRKCq0ThXZppyySXGiBNxG0/4l3YPX1f3QpO6BXdxksp+1WD1ik70zDb7wLH6uQQb7Ovsrw/szhWjuEiRGidkPGpwaZGzKJrGkBNxH09IGte4DRtNxBlpNscPtlnglFjRr4/Kzn279Cb2RFdkyertYjRg1Tdx5Soo8duT4UDYpTpSAG9fv5tLCnwNNRwx0liFwBQV57Wr2NkNgVnd6n8EpohjCEcQolqcNzTNsmVqvIqaUTWLqxQTE4xuKS5/8yJwZXGLOnV9nVpe3mRieGbVJzGQwTp44FVqcNDQg5DlG88zo/BjkqYFMSTGKE20i05LPyAWkJglAZya3ScwIjBvDc05AK5sHpGoxi/IXaGpQ0MlOFCdKAJmWrEUfktVEAejMsMViYkZgbTKOkB+w+dLbksSSioYtKVed+xsQj5Jp5Xs8GlLzhD03obU4sdv+h/EPsbi7Iqfeg68AAAAASUVORK5CYII=)![](/static/1b87ba5dd8a4dda4d8d17e472bd9cefb/002c1/footer_ethereum.png)
+
+订阅
+
+[ ](https://twitter.com/EthereumCN)[ ](https://discord.gg/KUywx3JJJU)[
+](https://i.ibb.co/mBgmDgF/footer-wechat.webp)[
+](https://github.com/EthereumCN)[ ](Mailto:eth@ecn.co)[
+](https://www.ethereum.cn/rss.xml)
+
+蜀ICP备2021001286号 ](https://beian.miit.gov.cn/)
+
+Ethereum Community Network
+
+以太坊社区网络
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAABcRAAAXEQHKJvM/AAADm0lEQVQ4yyWU1yv9YRzHnzulKLkR5QLxS1aJyDw2WdkS4Zinc+yRvcLJ3nvvHSG7jBtKVi7IhaRcuBDlD/i9vs734uv7eD6f53mvzxHm5uZRUVHBwcEREREODg6Ojo7W1tb6+voWFhYeHh7//h49PT0bGxsvLy9TU9Po6GiKaaFR8GdycrK9vX1ubi4zMzM9Pb2np6epqamoqIgPuVy+urra2dm5vb39/Pzc3Nw8MDDQ0dGxuLgYExMjOKatre3p6amvr0+hUOTn5+fm5t7d3ZWXl/f393d3d3M074KCgq2tLbVaXVtbyylDQ0Ph4eHSzbOzs2xPTU1lZ2fX1dXV1NS8v78XFxfX19fPzMwolcqWlhb+T1l1dfX4+DiHLi8vR0ZGCmgAtaSkpLW1lYNcXFzc3d0BNj8/PzExwSWfn5+3t7egY8k7NDQ0KysLdM7OzkJHR2dwcPDj44PqjIyMhISEtLS00tLSiooK6r6+vg4ODqCwsLCAVFDw9/dPTEzc3d2VYNvZ2alUqunp6f39/evra5hTWllZaWRkFBISAjy2KLi/v2cJOnahvbOzw1kiMDAQSkgXFha2tra2vr6OkrCCv/rvgbaTk1NycjLSaqAh3uvrq6Q2DBsbG4+OjmDC+uLiguXw8HB8fLxMJmP38vIS28bGxjgXztAJCgpCFIIgdHV1CwsLQcIGp4IiLi6ut7eXbXTOy8sDCEbExsb6+fmdnJxAAXXOz8/d3NyElpYW2EgCYGjQ6KmRwNXVlXNfXl7oIWGUQRVHUlJScCEpKUkYGxuTjaurK7hRBH7aNjc3AUl1Q0MDgfn9/YUF+cVRX19f+IPUyspKYBeSHh8fQ4w2slFWVoZgYPv+/iaYaPH29sYpNFND8kkxIZWaCQnubWxsoIS3tzcosLSqqgrywFlaWgLF2dkZIPEPdra2thRgKsUCG4jL3t7ew8MDAeRaTkUwyFPEN8YyFSzR7+bmhg/yix3gF/b29iyo4M3loPj5+UFMDMvJyUEeJglSpIA7OJScIDhZkpphwogwg1xC/+joKMaenp5SzTZUierh4eHj4yOR7Orqopli0ib5rBlJpGewwAxbPGNUAgICcJIPS0tLEGHEysrKyMgIbYSfnw3yK40k3JgNxEBGAwMD3GZOmEe0ZQYxiR62IKxJHg/3kz/BrwnpYUR4o7y2tranp2dqaqqPj4+ZmRk3mJiYICyOahJONg0NDUkbsP8DL00/zmMjxB8AAAAASUVORK5CYII=)![](/static/57048268f8823dd1ea147faa8e568647/d786d/footer_wechat.png)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEtUlEQVQ4y01VbUxbZRQ+t1Bm2PicA+0Q2WJM/O0vE5f9848mYIxEcB1Q+knbe/t5u5aWFkrRaGewuFDiNhHovW35LISPwIKDZTJjtE4xkWQON2d0mgyny9iI83rObTU2Obk3773vc5/zPs9zCu2sAO1sAuiqtoyClu65hLKdEyq1NuEwVq3WlqzT2sS63L2gwmfl+E4BFhjsSdDgHk0eIw+GC1YBAqFlBBMOajnhaZ1drNE7xEMGZ7Lc5EyVYpXhfQWuVels4lP0Du4r03EinOwYywMmQEbVWBPQZhYZBFPpkIXBkazocKeKWX68yOWbVvq7M4W+YKbQ6Z1SWvnxfR2u1H4EPohs63BPlcE5Aq1mxCGGassIBLtXiJkKX6gxupIHOM9EUSi8VDA1scncuHYPYkNZZjS5Bdtbv0MikWX8ofkCAjY6k6UyU044hFfQ20QALZeQ2yRmJgSzecaVQ4OfKXbvPwJJksAamAd3eB3CA1ng+y7Ia7/8vAvvnV5TsHy6CEHLZKasUII4QGBK+gq1ScwIjDZRWTqXGT6yBu7e9aP+6EZ5IHoFLP5VeCDdgd3dPYhG1xTEVO9IEsNaFIkhwEoSgM6M2nz44G+YXr0IbdwMnLTMwqstaQXbuWB39yy+4gjNA+ubZPb2UrAn3YWbP/wBp7pmC02u1AEUCgGFEiBrkJokwNTEN0yO3R0wudOM0TWO18ljBmcqrLcPe03uhKrNHAeNZYj5t4uh+KcKizv9GJJ6ErGqCbCWrEFqfre5A9sXJDA4xhidbQSfjVYYHILbzCd9J/Sx4Gtv9jWzgQnYQaCXGwIA4IWVpe8ZzjNZhKQeJ3JApiWf+UOZwuvfPoJnjreD1SMwJrSC0fFRA+sV3vL2zvr4nkygxTgQqW8MPFff2AWN6j5GeijB1c9vgts3pTQ6UhVo/iNACSDTks+uIWDtcQ3wARECfXNwqifzAssPN+vZQZeO+9Bs7xyv9/YuPOuLLIKnZw6kHQm+2LgF5E8SNQ+YMzItbn71G8y0SND1zgoTiq5CJHb5Cf/bS2ozP/yiMzhzLNx/+Y3+s5ulp+NZiLx/RT7DhbkthtxBOuRbFlQUJ5JfSHwpHzb9PN3TjDc8B85A+iVX10TQG1kMYT0fjF6E4Lur/4kyMHAJRUmRKCq0ThXZppyySXGiBNxG0/4l3YPX1f3QpO6BXdxksp+1WD1ik70zDb7wLH6uQQb7Ovsrw/szhWjuEiRGidkPGpwaZGzKJrGkBNxH09IGte4DRtNxBlpNscPtlnglFjRr4/Kzn279Cb2RFdkyertYjRg1Tdx5Soo8duT4UDYpTpSAG9fv5tLCnwNNRwx0liFwBQV57Wr2NkNgVnd6n8EpohjCEcQolqcNzTNsmVqvIqaUTWLqxQTE4xuKS5/8yJwZXGLOnV9nVpe3mRieGbVJzGQwTp44FVqcNDQg5DlG88zo/BjkqYFMSTGKE20i05LPyAWkJglAZya3ScwIjBvDc05AK5sHpGoxi/IXaGpQ0MlOFCdKAJmWrEUfktVEAejMsMViYkZgbTKOkB+w+dLbksSSioYtKVed+xsQj5Jp5Xs8GlLzhD03obU4sdv+h/EPsbi7Iqfeg68AAAAASUVORK5CYII=)![](/static/1b87ba5dd8a4dda4d8d17e472bd9cefb/002c1/footer_ethereum.png)
+
+订阅
+
+[ ](https://twitter.com/EthereumCN)[ ](https://discord.gg/KUywx3JJJU)[
+](https://i.ibb.co/mBgmDgF/footer-wechat.webp)[
+](https://github.com/EthereumCN)[ ](Mailto:eth@ecn.co)[
+](https://www.ethereum.cn/rss.xml)
+
+[ 蜀ICP备2021001286号 ](https://beian.miit.gov.cn/)
+
