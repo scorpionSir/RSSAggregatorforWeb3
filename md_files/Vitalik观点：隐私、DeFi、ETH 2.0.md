@@ -1,0 +1,145 @@
+[![logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABj0lEQVQoz12Sv0vDQBTHT0HrD4QWRJRLi3QQOojon1JxUhcFQQeViknrJjiIglgRhW4OTiLSWXB10MnJoToI0lp6ESu1TZNc/L7LFcGDD+8u4X3y3r0wKeUUeAqwEBVYZa9amhCb0bydjbdti/vAsy0jALPYp0EZSODq91W8W2AQPGqZg9CUvkvGUv08fSEywwGESDIaoAW+QQHJbWEq+Y+mqc8OCV3wASZBzP+qJJ8ZY2JrpKgqMvk8Yh8kvL6b6sZ+WZicki/BIBgFUVCk5ywsTr4ikvxI+l4F+w20e21bcQiNGUiZ2OZdSGLYr+jW9+hcw3NUx/DBY6pSCcELZCQ8RMtvOK+K9aErO5ugCqdJCDESVVzSwgMSQhLRwjMl1C1Xw+H4Mf/zPQFhxN5J3qrEbGJRmGMDwjIMYfF+yDNauK+FvVp4qlqG6F4PpY3goMIWxebdiVdbi1CiDC+dtwBdfmcA+X/CQqflFGQP6nf5+20C6blB4yYnRW7chcihCYbwFk0ZzAES9eiIq+DiFyR9m3ZUxiupAAAAAElFTkSuQmCC)![logo](/static/9c635c914229a850d1a9fd284014bdd0/65e33/eco_logo.png)](/)
+
+  * [新闻资讯](/)
+
+  *   * [零时学院](/c0llege)
+
+  * [开发者门户](/develop)
+
+  * [生态漫游](/ecos)
+
+Ξ
+
+Search by [](https://www.algolia.com/?utm_source=react-
+instantsearch&utm_medium=website&utm_content=&utm_campaign=poweredby)
+
+## Vitalik观点：隐私、DeFi、ETH 2.0
+
+9月15日，以太坊联合创始人 Vitalik Buterin 在特拉维夫 Ethereal 峰会问答环节中谈论到以太坊大生态的发展状况。
+
+* * *
+
+TC
+
+Tim Copeland 2019-09-16
+
+来源 | [decrypt.co](https://decrypt.co/9251/vitalik-buterin-questions-answers-
+ethereal)
+
+昨日，以太坊联合创始人 Vitalik Buterin 在特拉维夫 Ethereal 峰会问答环节中谈论到以太坊大生态的发展状况。
+
+在与Ejaaz Ahamadeen（ConsenSys 旗下 Digital Assets 首席通证架构师）的交谈之中，Vitalik
+谈到了隐私工具在近几周取得的巨大成果、去中心化金融（DeFi）的潜力以及以太坊2.0的发展路线。
+
+  
+
+# 以太坊2.0：Staking
+
+针对以太坊2.0的首个开发进程，即阶段0，Vitalik 表示“除了在安全审计期间出现的问题，一切都已最终确定。以太坊各个客户端目前正在相互沟通。下一步是要
+**确保他们能够维护一个大规模的公共网络。** ”
+
+Vitalik 所指的这个过程，被称作
+Eth2Beaucoup，包含7个以太坊2.0客户端（即将到来的区块链平台升级中应用的版本）的联通以及同步运行。这一进度在以太坊该阶段的开发过程中成为重大里程碑。
+
+Vitalik 表示：“下一步的目标就是要确保他们能够维护一个大规模的公共网络。这里我们指的是聚合了大量交易的验证者，其数量可能达到成千上万个。”
+
+对话中还涉及到了验证者奖励的话题。“验证者”指愿意在智能合约中锁定一定量 ETH
+以帮助验证以太坊交易的用户。一些批评意见指出，以太坊2.0奖励太低，不足以激励验证者维护网络运行。
+
+对此 Vitalik 回应道：“这当中存在很多误解。有些人一直在诟病1%这个数据。实际上，最高奖励会达到每年1.7%，这是每个人都参与 Staking
+的情况。在验证者数量较少的情况下，奖励会上升一些。”
+
+Vitalik
+所指的奖励是验证者在质押ETH之后获取的利息。**这一利率与网络中验证者的数量紧密相关。**如果每个用户都成为验证者，那么将获得他们质押资产的1.7%作为收益。但是假如网络中只有1%的用户成为验证者，那么这些验证者的利率将上升至17%。但
+Vitalik 补充到，具体数字仍在讨论中。
+
+  
+
+# Plonk：为区块链提供隐私
+
+当被问及最近隐私技术方面（尤其是 Zcash 这类隐私币所使用的零知识证明）的发展时，Vitalik 说：“过去的三周里，Zk-
+SNARKs（一种在不公开交易金额的情况下证明交易存在的方式）总体上确实取得了巨大的飞跃，但很多人并未意识到这一点。”
+
+他还提到了 **Plonk** ，这是一种创建零知识证明的新方法，将于10月份由 Aztec
+Protocal（ConsenSys支持的以太坊隐私项目）推出**。这个概念使得创建零知识证明更加简单，如此一来更多的人都能使用这一技术。**“这意味着成千上万的用户都能轻松参与进来。”
+
+  
+
+# DeFi的未来
+
+不出所料，Vitalik对新兴的去中心化金融世界非常感兴趣，这一新金融模式在很大程度上是基于以太坊的。
+
+“总的来说，DeFi
+的潜力非常激动人心。在这个概念中，世界上任何地方的任何人都能使用一个自由的金融系统，使得他们能够互相交易、自行承担金融风险，这是一个十分大胆有力的想法。这也是目前许多人都无法接触到的事物。”
+
+他进一步建议DeFi可以通过谋求某种方式，以防止区块链创始人募集大量资金后销声匿迹。“众筹收益项目”（Public interest
+projects）是指**用户质押自己的部分虚拟货币，然后利用其产生的收益来募集资金用于项目建设。**
+**这个概念可以看作是DeFi语境中的ICO（DeF-ICO）。**
+
+这与普遍意义上 ICO
+的关键不同之处在于，相较于一次性募集大量资金，项目的资金募集是相对小额，持续稳定的（来源于利息），其资金源取决于项目的持续开发。如果某个项目开始出现欺诈倾向，那么投资者可以撤回他们的资金，项目资金就会逐渐减少。
+
+“这么做并非为了最大化个人收益，而是如何将收益投入你支持的项目。 **ICO 领域欺诈现象频生，这是缓解投资者忧虑的良方。** ”
+
+Vitalik 也随即指出了 **DeFi 发展的痛点：显而易见的中心化“后门”和预言机。**
+
+中心化“后门”指某个中心化组织实际掌握了去中心化应用的完全控制权，就如同最近在 Compound 中发现的问题。
+
+与此同时，预言机作为区块链访问真实世界数据的方式，“如果预言机是由单一个人设定的，那么去中心化几乎无济于事。这个人可以设定他想要的价格，抢先他人进行清算，通过这种方式攫取一大笔利润。”
+
+Vitalik也补充到在寻找去中心化预言机方面正在取得良好进展（许多项目正在尝试整合 Chainlink，同时 Compound
+也在构建自己的去中心化预言机）。
+
+  
+
+# 我待魔兽如初恋 魔兽虐我千百遍
+
+在谈话的最后，Ahamadeen 提到了 Vitalik 对于《魔兽世界》的热衷。在 Vitalik
+自己的博客中，他提到了自己对这个游戏的喜爱，不过在游戏开发商暴雪娱乐修改了自己的游戏角色设置之后，他“哭着入睡，并且意识到中心化服务可能带来的弊端”。
+
+就在上个月，暴雪发布了这款游戏的原始版本——《魔兽世界》经典版，回滚了15年来的更新——这有些类似以太坊经典（Ethereum Classic）。对此
+Ahamadeen 问道，鉴于这款游戏已经恢复了原貌，那么 Vitalik 会否回到“初恋”的怀抱？
+
+Vitalik 傲娇地回答说：“如果《魔兽世界》转移到以太坊上，我会考虑的。”
+
+  
+  
+
+声明：ECN的翻译工作旨在为中国以太坊社区传递优质资讯和学习资源，文章版权归原作者所有，转载须注明原文出处以及ethereum.cn，若需长期转载，请联系[ethereumcn@gmail.com](mailto:ethereumcn@gmail.com)进行授权。
+
+* * *
+
+Ethereum Community Network
+
+以太坊社区网络
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAABcRAAAXEQHKJvM/AAADm0lEQVQ4yyWU1yv9YRzHnzulKLkR5QLxS1aJyDw2WdkS4Zinc+yRvcLJ3nvvHSG7jBtKVi7IhaRcuBDlD/i9vs734uv7eD6f53mvzxHm5uZRUVHBwcEREREODg6Ojo7W1tb6+voWFhYeHh7//h49PT0bGxsvLy9TU9Po6GiKaaFR8GdycrK9vX1ubi4zMzM9Pb2np6epqamoqIgPuVy+urra2dm5vb39/Pzc3Nw8MDDQ0dGxuLgYExMjOKatre3p6amvr0+hUOTn5+fm5t7d3ZWXl/f393d3d3M074KCgq2tLbVaXVtbyylDQ0Ph4eHSzbOzs2xPTU1lZ2fX1dXV1NS8v78XFxfX19fPzMwolcqWlhb+T1l1dfX4+DiHLi8vR0ZGCmgAtaSkpLW1lYNcXFzc3d0BNj8/PzExwSWfn5+3t7egY8k7NDQ0KysLdM7OzkJHR2dwcPDj44PqjIyMhISEtLS00tLSiooK6r6+vg4ODqCwsLCAVFDw9/dPTEzc3d2VYNvZ2alUqunp6f39/evra5hTWllZaWRkFBISAjy2KLi/v2cJOnahvbOzw1kiMDAQSkgXFha2tra2vr6OkrCCv/rvgbaTk1NycjLSaqAh3uvrq6Q2DBsbG4+OjmDC+uLiguXw8HB8fLxMJmP38vIS28bGxjgXztAJCgpCFIIgdHV1CwsLQcIGp4IiLi6ut7eXbXTOy8sDCEbExsb6+fmdnJxAAXXOz8/d3NyElpYW2EgCYGjQ6KmRwNXVlXNfXl7oIWGUQRVHUlJScCEpKUkYGxuTjaurK7hRBH7aNjc3AUl1Q0MDgfn9/YUF+cVRX19f+IPUyspKYBeSHh8fQ4w2slFWVoZgYPv+/iaYaPH29sYpNFND8kkxIZWaCQnubWxsoIS3tzcosLSqqgrywFlaWgLF2dkZIPEPdra2thRgKsUCG4jL3t7ew8MDAeRaTkUwyFPEN8YyFSzR7+bmhg/yix3gF/b29iyo4M3loPj5+UFMDMvJyUEeJglSpIA7OJScIDhZkpphwogwg1xC/+joKMaenp5SzTZUierh4eHj4yOR7Orqopli0ib5rBlJpGewwAxbPGNUAgICcJIPS0tLEGHEysrKyMgIbYSfnw3yK40k3JgNxEBGAwMD3GZOmEe0ZQYxiR62IKxJHg/3kz/BrwnpYUR4o7y2tranp2dqaqqPj4+ZmRk3mJiYICyOahJONg0NDUkbsP8DL00/zmMjxB8AAAAASUVORK5CYII=)![](/static/57048268f8823dd1ea147faa8e568647/d786d/footer_wechat.png)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEtUlEQVQ4y01VbUxbZRQ+t1Bm2PicA+0Q2WJM/O0vE5f9848mYIxEcB1Q+knbe/t5u5aWFkrRaGewuFDiNhHovW35LISPwIKDZTJjtE4xkWQON2d0mgyny9iI83rObTU2Obk3773vc5/zPs9zCu2sAO1sAuiqtoyClu65hLKdEyq1NuEwVq3WlqzT2sS63L2gwmfl+E4BFhjsSdDgHk0eIw+GC1YBAqFlBBMOajnhaZ1drNE7xEMGZ7Lc5EyVYpXhfQWuVels4lP0Du4r03EinOwYywMmQEbVWBPQZhYZBFPpkIXBkazocKeKWX68yOWbVvq7M4W+YKbQ6Z1SWvnxfR2u1H4EPohs63BPlcE5Aq1mxCGGassIBLtXiJkKX6gxupIHOM9EUSi8VDA1scncuHYPYkNZZjS5Bdtbv0MikWX8ofkCAjY6k6UyU044hFfQ20QALZeQ2yRmJgSzecaVQ4OfKXbvPwJJksAamAd3eB3CA1ng+y7Ia7/8vAvvnV5TsHy6CEHLZKasUII4QGBK+gq1ScwIjDZRWTqXGT6yBu7e9aP+6EZ5IHoFLP5VeCDdgd3dPYhG1xTEVO9IEsNaFIkhwEoSgM6M2nz44G+YXr0IbdwMnLTMwqstaQXbuWB39yy+4gjNA+ubZPb2UrAn3YWbP/wBp7pmC02u1AEUCgGFEiBrkJokwNTEN0yO3R0wudOM0TWO18ljBmcqrLcPe03uhKrNHAeNZYj5t4uh+KcKizv9GJJ6ErGqCbCWrEFqfre5A9sXJDA4xhidbQSfjVYYHILbzCd9J/Sx4Gtv9jWzgQnYQaCXGwIA4IWVpe8ZzjNZhKQeJ3JApiWf+UOZwuvfPoJnjreD1SMwJrSC0fFRA+sV3vL2zvr4nkygxTgQqW8MPFff2AWN6j5GeijB1c9vgts3pTQ6UhVo/iNACSDTks+uIWDtcQ3wARECfXNwqifzAssPN+vZQZeO+9Bs7xyv9/YuPOuLLIKnZw6kHQm+2LgF5E8SNQ+YMzItbn71G8y0SND1zgoTiq5CJHb5Cf/bS2ozP/yiMzhzLNx/+Y3+s5ulp+NZiLx/RT7DhbkthtxBOuRbFlQUJ5JfSHwpHzb9PN3TjDc8B85A+iVX10TQG1kMYT0fjF6E4Lur/4kyMHAJRUmRKCq0ThXZppyySXGiBNxG0/4l3YPX1f3QpO6BXdxksp+1WD1ik70zDb7wLH6uQQb7Ovsrw/szhWjuEiRGidkPGpwaZGzKJrGkBNxH09IGte4DRtNxBlpNscPtlnglFjRr4/Kzn279Cb2RFdkyertYjRg1Tdx5Soo8duT4UDYpTpSAG9fv5tLCnwNNRwx0liFwBQV57Wr2NkNgVnd6n8EpohjCEcQolqcNzTNsmVqvIqaUTWLqxQTE4xuKS5/8yJwZXGLOnV9nVpe3mRieGbVJzGQwTp44FVqcNDQg5DlG88zo/BjkqYFMSTGKE20i05LPyAWkJglAZya3ScwIjBvDc05AK5sHpGoxi/IXaGpQ0MlOFCdKAJmWrEUfktVEAejMsMViYkZgbTKOkB+w+dLbksSSioYtKVed+xsQj5Jp5Xs8GlLzhD03obU4sdv+h/EPsbi7Iqfeg68AAAAASUVORK5CYII=)![](/static/1b87ba5dd8a4dda4d8d17e472bd9cefb/002c1/footer_ethereum.png)
+
+订阅
+
+[ ](https://twitter.com/EthereumCN)[ ](https://discord.gg/KUywx3JJJU)[
+](https://i.ibb.co/mBgmDgF/footer-wechat.webp)[
+](https://github.com/EthereumCN)[ ](Mailto:eth@ecn.co)[
+](https://www.ethereum.cn/rss.xml)
+
+蜀ICP备2021001286号 ](https://beian.miit.gov.cn/)
+
+Ethereum Community Network
+
+以太坊社区网络
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAABcRAAAXEQHKJvM/AAADm0lEQVQ4yyWU1yv9YRzHnzulKLkR5QLxS1aJyDw2WdkS4Zinc+yRvcLJ3nvvHSG7jBtKVi7IhaRcuBDlD/i9vs734uv7eD6f53mvzxHm5uZRUVHBwcEREREODg6Ojo7W1tb6+voWFhYeHh7//h49PT0bGxsvLy9TU9Po6GiKaaFR8GdycrK9vX1ubi4zMzM9Pb2np6epqamoqIgPuVy+urra2dm5vb39/Pzc3Nw8MDDQ0dGxuLgYExMjOKatre3p6amvr0+hUOTn5+fm5t7d3ZWXl/f393d3d3M074KCgq2tLbVaXVtbyylDQ0Ph4eHSzbOzs2xPTU1lZ2fX1dXV1NS8v78XFxfX19fPzMwolcqWlhb+T1l1dfX4+DiHLi8vR0ZGCmgAtaSkpLW1lYNcXFzc3d0BNj8/PzExwSWfn5+3t7egY8k7NDQ0KysLdM7OzkJHR2dwcPDj44PqjIyMhISEtLS00tLSiooK6r6+vg4ODqCwsLCAVFDw9/dPTEzc3d2VYNvZ2alUqunp6f39/evra5hTWllZaWRkFBISAjy2KLi/v2cJOnahvbOzw1kiMDAQSkgXFha2tra2vr6OkrCCv/rvgbaTk1NycjLSaqAh3uvrq6Q2DBsbG4+OjmDC+uLiguXw8HB8fLxMJmP38vIS28bGxjgXztAJCgpCFIIgdHV1CwsLQcIGp4IiLi6ut7eXbXTOy8sDCEbExsb6+fmdnJxAAXXOz8/d3NyElpYW2EgCYGjQ6KmRwNXVlXNfXl7oIWGUQRVHUlJScCEpKUkYGxuTjaurK7hRBH7aNjc3AUl1Q0MDgfn9/YUF+cVRX19f+IPUyspKYBeSHh8fQ4w2slFWVoZgYPv+/iaYaPH29sYpNFND8kkxIZWaCQnubWxsoIS3tzcosLSqqgrywFlaWgLF2dkZIPEPdra2thRgKsUCG4jL3t7ew8MDAeRaTkUwyFPEN8YyFSzR7+bmhg/yix3gF/b29iyo4M3loPj5+UFMDMvJyUEeJglSpIA7OJScIDhZkpphwogwg1xC/+joKMaenp5SzTZUierh4eHj4yOR7Orqopli0ib5rBlJpGewwAxbPGNUAgICcJIPS0tLEGHEysrKyMgIbYSfnw3yK40k3JgNxEBGAwMD3GZOmEe0ZQYxiR62IKxJHg/3kz/BrwnpYUR4o7y2tranp2dqaqqPj4+ZmRk3mJiYICyOahJONg0NDUkbsP8DL00/zmMjxB8AAAAASUVORK5CYII=)![](/static/57048268f8823dd1ea147faa8e568647/d786d/footer_wechat.png)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEtUlEQVQ4y01VbUxbZRQ+t1Bm2PicA+0Q2WJM/O0vE5f9848mYIxEcB1Q+knbe/t5u5aWFkrRaGewuFDiNhHovW35LISPwIKDZTJjtE4xkWQON2d0mgyny9iI83rObTU2Obk3773vc5/zPs9zCu2sAO1sAuiqtoyClu65hLKdEyq1NuEwVq3WlqzT2sS63L2gwmfl+E4BFhjsSdDgHk0eIw+GC1YBAqFlBBMOajnhaZ1drNE7xEMGZ7Lc5EyVYpXhfQWuVels4lP0Du4r03EinOwYywMmQEbVWBPQZhYZBFPpkIXBkazocKeKWX68yOWbVvq7M4W+YKbQ6Z1SWvnxfR2u1H4EPohs63BPlcE5Aq1mxCGGassIBLtXiJkKX6gxupIHOM9EUSi8VDA1scncuHYPYkNZZjS5Bdtbv0MikWX8ofkCAjY6k6UyU044hFfQ20QALZeQ2yRmJgSzecaVQ4OfKXbvPwJJksAamAd3eB3CA1ng+y7Ia7/8vAvvnV5TsHy6CEHLZKasUII4QGBK+gq1ScwIjDZRWTqXGT6yBu7e9aP+6EZ5IHoFLP5VeCDdgd3dPYhG1xTEVO9IEsNaFIkhwEoSgM6M2nz44G+YXr0IbdwMnLTMwqstaQXbuWB39yy+4gjNA+ubZPb2UrAn3YWbP/wBp7pmC02u1AEUCgGFEiBrkJokwNTEN0yO3R0wudOM0TWO18ljBmcqrLcPe03uhKrNHAeNZYj5t4uh+KcKizv9GJJ6ErGqCbCWrEFqfre5A9sXJDA4xhidbQSfjVYYHILbzCd9J/Sx4Gtv9jWzgQnYQaCXGwIA4IWVpe8ZzjNZhKQeJ3JApiWf+UOZwuvfPoJnjreD1SMwJrSC0fFRA+sV3vL2zvr4nkygxTgQqW8MPFff2AWN6j5GeijB1c9vgts3pTQ6UhVo/iNACSDTks+uIWDtcQ3wARECfXNwqifzAssPN+vZQZeO+9Bs7xyv9/YuPOuLLIKnZw6kHQm+2LgF5E8SNQ+YMzItbn71G8y0SND1zgoTiq5CJHb5Cf/bS2ozP/yiMzhzLNx/+Y3+s5ulp+NZiLx/RT7DhbkthtxBOuRbFlQUJ5JfSHwpHzb9PN3TjDc8B85A+iVX10TQG1kMYT0fjF6E4Lur/4kyMHAJRUmRKCq0ThXZppyySXGiBNxG0/4l3YPX1f3QpO6BXdxksp+1WD1ik70zDb7wLH6uQQb7Ovsrw/szhWjuEiRGidkPGpwaZGzKJrGkBNxH09IGte4DRtNxBlpNscPtlnglFjRr4/Kzn279Cb2RFdkyertYjRg1Tdx5Soo8duT4UDYpTpSAG9fv5tLCnwNNRwx0liFwBQV57Wr2NkNgVnd6n8EpohjCEcQolqcNzTNsmVqvIqaUTWLqxQTE4xuKS5/8yJwZXGLOnV9nVpe3mRieGbVJzGQwTp44FVqcNDQg5DlG88zo/BjkqYFMSTGKE20i05LPyAWkJglAZya3ScwIjBvDc05AK5sHpGoxi/IXaGpQ0MlOFCdKAJmWrEUfktVEAejMsMViYkZgbTKOkB+w+dLbksSSioYtKVed+xsQj5Jp5Xs8GlLzhD03obU4sdv+h/EPsbi7Iqfeg68AAAAASUVORK5CYII=)![](/static/1b87ba5dd8a4dda4d8d17e472bd9cefb/002c1/footer_ethereum.png)
+
+订阅
+
+[ ](https://twitter.com/EthereumCN)[ ](https://discord.gg/KUywx3JJJU)[
+](https://i.ibb.co/mBgmDgF/footer-wechat.webp)[
+](https://github.com/EthereumCN)[ ](Mailto:eth@ecn.co)[
+](https://www.ethereum.cn/rss.xml)
+
+[ 蜀ICP备2021001286号 ](https://beian.miit.gov.cn/)
+
