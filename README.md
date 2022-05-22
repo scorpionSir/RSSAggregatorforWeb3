@@ -1,9 +1,9 @@
 # A powerful telegram bot (@scorpion_media_bot) for tracking RSS Aggregator for Web3 (or 🥩 RAW for short)
-Bootstrapping your personal Web3 info hub from more than 500 RSS Feeds. Now, we create a telegram channel for tracking this RSS Aggregator for web3 via a powerful telegram bot (@scorpion_media_bot).
+Bootstrapping your personal Web3 info hub from more than 500 RSS Feeds. Usually you can only track these RSS feed from app.
 
-Our telegram channel link is [https](https://t.me/web3_rss).
+Now, we create a powerful telegram bot (@scorpion_media_bot) to help you tracking this RSS Aggregator for web3 in a telegram channel in real time.
 
-![](./img/whyRSS.png)
+Our telegram channel link is [web3 rss channel](https://t.me/web3_rss). You can also user our telegram bot (@scorpion_meida_bot) to create your own RSS Aggregator in your telegram channel.
 
 
 
