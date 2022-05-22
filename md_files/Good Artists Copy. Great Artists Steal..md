@@ -1,0 +1,206 @@
+For better experience, please enable JavaScript.
+
+[Multicoin Capital](/)
+
+  * [About](/about/)
+  * [Thesis](/thesis/)
+  * [Portfolio](/portfolio/)
+  * Media
+  * More
+  * [Contact](/contact/)
+
+![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjciIHZpZXdCb3g9IjAgMCAyNCAyNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAzLjI0MzIxTDMgMFYyMEwxMiAxNy4wMjdWMy4yNDMyMVoiIGZpbGw9IiM0QTRBNEEiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAzLjI0MzExTDIxIDBWMjBMMTIgMTcuMDI3VjMuMjQzMTFaIiBmaWxsPSIjRkZGRkZFIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMCAyM0wxMSAxOS4yNjY4VjNMMCA2LjczMzE1VjIzWiIgZmlsbD0iI0ZGRkZGRSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE3IDIzTDE4Ljk2NDIgMjZMMjAgMjMuMjEzMkwxNyAyM1oiIGZpbGw9IiM0QTRBNEEiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00LjAxNTE2IDguNTEzNjhDMy45NTA5OCA4LjQzMTkgNC4wOTg3NSA5LjE4MTg4IDQuMzA0NDEgOS40NTE2OUM0LjY2OTA3IDkuOTI4OTkgNC45NTM5MiA5Ljk5MDQ5IDUuMTA1NTcgOS45OTgzOEM1LjQ0MTE3IDEwLjAxNTggNS44NTUzMyA5Ljg4OTk0IDYuMTAxMjcgOS43NTYxOUM2LjMzOTI0IDkuNjI0NDggNi43NTYyMyA5LjM0ODI4IDYuOTE0MDcgOC45NDU0QzYuOTQ3NTIgOC44NTkyNyA3LjAzODg3IDguNzE0NjQgNi45ODE1IDguMzU3MzRDNi45Mzc5OCA4LjA4MjUgNi44MDMxMSA3Ljk4NjMgNi42Mzg2NiA4LjAwMTU0QzYuNDc0MjEgOC4wMTU5NiA1Ljk3NjM2IDguMTg4MjIgNS43MzU1NiA4LjI4NDI4QzUuNDk0NjYgOC4zNzkxMSA0Ljk5ODQ5IDguNTc1MDQgNC43ODIyMyA4LjYzNTg2QzQuNTY2NSA4LjY5NjU0IDQuMDkwODggOC42MDc3IDQuMDE1MTYgOC41MTM2OFoiIGZpbGw9IiM0QTRBNEEiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05Ljc2NDY3IDE0LjYxNTlDOS42NzM0NCAxNC41ODM2IDcuNzg1ODcgMTMuODIxMiA3LjUxODMgMTMuNjk2MkM3LjI5OTM2IDEzLjU5MzYgNi43NjI1MSAxMy4zNzIzIDYuNTA5OTEgMTMuMjcxN0M3LjIyMTM5IDEyLjIwMjEgNy42NzA1MyAxMS4zOTQ5IDcuNzMwMzEgMTEuMjcxOUM3Ljg0MDkzIDExLjA0NyA4LjU5NDAxIDkuNjEwMSA4LjYxMTU5IDkuNTIxNjNDOC42Mjg2OCA5LjQzMTk4IDguNjUwMDggOS4xMDA4NCA4LjYzMzUgOS4wMjIxNkM4LjYxNjkyIDguOTQxOTIgOC4zNDA4MSA5LjA5NjEzIDcuOTY1OTMgOS4yMjAwN0M3LjU5MDQ1IDkuMzQzNTEgNi44NzY4NiA5Ljc5NjA1IDYuNjAxMjUgOS44NTI3OEM2LjMyNDY0IDkuOTA5MDEgNS40NDA2NCAxMC4yMzU2IDQuOTg4MjkgMTAuMzgxOUM0LjUzNTk0IDEwLjUyODMgMy42ODAyOCAxMC43ODI5IDMuMzI4MzEgMTAuODc1NkMyLjk3NTgzIDEwLjk2ODMgMi42NjgxNyAxMC45NzU2IDIuNDcxMDQgMTEuMDMzOUMyLjQ3MTA0IDExLjAzMzkgMi40OTcyNiAxMS4zMDMyIDIuNTQ5NjEgMTEuMzgzOUMyLjYwMTM2IDExLjQ2NDYgMi43ODc4NCAxMS42NjI1IDMuMDA0NjcgMTEuNzE3OEMzLjIyMTUgMTEuNzczNCAzLjU4MDQgMTEuNzUxMSAzLjc0Mzg4IDExLjcxNDdDMy45MDcyNiAxMS42Nzc2IDQuMTkwMyAxMS41NDI4IDQuMjI4MjggMTEuNDgzOUM0LjI2NjY2IDExLjQyNDEgNC4yMDg0OSAxMS4yMzk3IDQuMjczMDkgMTEuMTgzOUM0LjMzODMgMTEuMTI4OCA1LjE5OTc5IDEwLjkzMjQgNS41MjUwNCAxMC44MzY2QzUuODUwMjggMTAuNzM5MSA3LjA5NTI5IDEwLjMyMSA3LjI2NDEgMTAuMzQyM0M3LjIxMDY0IDEwLjUxNTMgNi4yMDkxOSAxMi40NDk0IDUuODg2NjYgMTMuMDI2NUM1LjU2NDAyIDEzLjYwMzUgMy42ODk5MiAxNi4xNDE4IDMuMjkwOTMgMTYuNTg5MkMyLjk4ODA5IDE2LjkyOTMgMi4yNTQyMSAxNy43OTk0IDIgMTcuOTk1OEMyLjA2NDEgMTguMDEzIDIuNTE4NTYgMTcuOTc1IDIuNjAxMzYgMTcuOTI1QzMuMTE3MzEgMTcuNjE1MiAzLjk3NjY5IDE2LjU3MiA0LjI1MzQgMTYuMjU0M0M1LjA3NTkxIDE1LjMxMzggNS43OTg1NCAxNC4zMjU4IDYuMzcxNTYgMTMuNDc4SDYuMzcyMTZDNi40ODM3OSAxMy41MjMzIDcuMzg2MzggMTQuMjQwNCA3LjYyMTg5IDE0LjM5OTNDNy44NTc0MSAxNC41NTgxIDguNzg2ODMgMTUuMDYzOCA4Ljk4ODE4IDE1LjE0NzZDOS4xODk1NCAxNS4yMzI2IDkuOTYzNDEgMTUuNTgwNSA5Ljk5NTk3IDE1LjQ2MjdDMTAuMDI4NSAxNS4zNDQgOS44NTYgMTQuNjQ5NyA5Ljc2NDY3IDE0LjYxNTlaIiBmaWxsPSIjNEE0QTRBIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNC44NjU4NyAyNC4zMTQ1QzUuMDUzNjUgMjQuNDQ3NiA1LjIzMSAyNC41NTY1IDUuNDI5MjEgMjQuNjY1M0M1LjgyNTYzIDI0Ljg5NTIgNi4yNzQyMiAyNS4xMzcxIDYuNzAxOTQgMjUuMzE4NUM3LjI4NjE0IDI1LjU3MjYgNy44NzAzNCAyNS43NzgyIDguNDU0NTUgMjUuOTM1NUM4Ljc3Nzk0IDI2LjAyMDIgOS4xMzI2NCAyNi4wOTI3IDkuNDc2OSAyNi4xNTMyQzkuNTA4MiAyNi4xNTMyIDEwLjQzNjcgMjYuMjg2MyAxMC42MjQ0IDI2LjI4NjNIMTEuNTYzM0MxMS45Mjg1IDI2LjI1IDEyLjI3MjcgMjYuMjI1OCAxMi42Mzc5IDI2LjE2NTNDMTIuOTMgMjYuMTE2OSAxMy4yNTM0IDI2LjA1NjUgMTMuNTY2MyAyNS45NzE4QzEzLjc5NTggMjUuOTExMyAxNC4wMzU4IDI1Ljg1MDggMTQuMjY1MyAyNS43NjYxQzE0LjQ4NDQgMjUuNjkzNSAxNC43MzQ3IDI1LjU5NjggMTQuOTc0NyAyNS41QzE1LjEzMTEgMjUuNDM5NSAxNS4yOTgxIDI1LjM1NDggMTUuNDY1IDI1LjI4MjNDMTUuNjAwNiAyNS4yMDk3IDE1Ljc2NzUgMjUuMTI1IDE1LjkyNCAyNS4wNTI0QzE2LjExMTggMjQuOTU1NiAxNi4zMzA4IDI0LjgyMjYgMTYuNTM5NSAyNC43MDE2QzE2LjcwNjQgMjQuNjA0OCAxNi44OTQyIDI0LjQ4MzkgMTcuMDcxNSAyNC4zNjI5QzE3LjIwNzIgMjQuMjc4MiAxNy41MjAxIDI0IDE3LjY4NyAyNEMxNy44NzQ4IDI0IDE4IDI0LjE5MzUgMTggMjQuMzYyOUMxOCAyNC43MTM3IDE3LjU5MzEgMjQuODIyNiAxNy40MDU0IDI0Ljk3OThDMTcuMjA3MiAyNS4xMzcxIDE2Ljk2NzIgMjUuMjU4MSAxNi43NTg2IDI1LjM5MTFDMTYuMzQxMyAyNS42NDUyIDE1LjkxMzYgMjUuODYyOSAxNS41MDY3IDI2LjA0NDRDMTQuOTc0NyAyNi4yNzQyIDE0LjM5MDUgMjYuNDkxOSAxMy44Njg5IDI2LjYzNzFDMTMuNjcwNiAyNi42ODU1IDEzLjQ3MjQgMjYuNzQ2IDEzLjI3NDIgMjYuNzgyM0MxMy4xNjk5IDI2LjgwNjUgMTIuMDg0OSAyNyAxMS43ODI0IDI3SDEwLjQwNTRDMTAuMDQwMiAyNi45NjM3IDkuNjU0MjUgMjYuOTE1MyA5LjI4OTEyIDI2Ljg1NDhDOC45NjU3MiAyNi43OTQ0IDguNjIxNDYgMjYuNzIxOCA4LjI5ODA2IDI2LjYzNzFDOC4wNDc2OSAyNi41NzY2IDcuNzc2NDUgMjYuNDkxOSA3LjUzNjUxIDI2LjQwNzNDNy4xMTkyMyAyNi4yNzQyIDYuNzEyMzcgMjYuMTA0OCA2LjMxNTk1IDI1LjkyMzRDNS41OTYxMyAyNS42MDg5IDQuODQ1MDEgMjUuMTk3NiA0LjEzNTYyIDI0LjY1MzJDNC4wMTA0MyAyNC41NTY1IDQgMjQuNDU5NyA0IDI0LjM1MDhDNCAyNC4xNjk0IDQuMTE0NzUgMjQgNC4zMDI1MyAyNEM0LjQ2OTQ1IDI0IDQuODAzMjggMjQuMjc4MiA0Ljg2NTg3IDI0LjMxNDVaIiBmaWxsPSIjNEE0QTRBIi8+CjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjIxIiBoZWlnaHQ9IjI0Ij4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDAuMDAwMzY2MjExSDIxVjI0SDBWMC4wMDAzNjYyMTFaIiBmaWxsPSJ3aGl0ZSIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazApIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS42Njk5IDMuNDc0ODlWMTkuOTY1N0MxMS42NjAyIDIwLjAxNDggMTEuNjQxIDIwLjA2MzggMTEuNjAyNSAyMC4xMTI5QzExLjU4MzIgMjAuMTQyNCAxMS41NDQ3IDIwLjE4MTYgMTEuNTE1OCAyMC4xOTE1QzExLjI3NTEgMjAuMjg5NiAwLjQzMzI4OCAyNCAwLjI4ODg1OCAyNEMwLjE3MzMxNSAyNCAwLjA2NzQwMDMgMjMuOTIxNSAwLjAwOTYyODYxIDIzLjc5MzlDMC4wMDk2Mjg2MSAyMy43ODQxIDAgMjMuNzc0MyAwIDIzLjc1NDZWNy4yNTQwM0MwLjAxOTI1NzIgNy4yMDQ5NSAwLjAyODg4NTggNy4xMzYyNCAwLjA2NzQwMDMgNy4wOTY5OEMwLjE0NDQyOSA2Ljk4OSAwLjI3OTIzIDYuOTY5MzcgMC4zNjU4ODcgNi45Mzk5MkMwLjUyOTU3NCA2Ljg4MTAzIDExLjIwNzcgMy4yMjk0OSAxMS4zNjE4IDMuMjI5NDlDMTEuNDU4IDMuMjI5NDkgMTEuNjY5OSAzLjI5ODIgMTEuNjY5OSAzLjQ3NDg5Wk0xMS4wODI1IDE5LjcyMDNMMC41ODczNDUgMjMuMjgzNVY3LjQ5OTQzTDExLjA4MjUgMy45MzYyNFYxOS43MjAzWiIgZmlsbD0iIzRBNEE0QSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIxIDAuMzE0MTFWMjAuMTcxOEMyMC45OTA0IDIwLjM5NzUgMjAuODM2MyAyMC40OTU3IDIwLjY5MTkgMjAuNDk1N0MyMC41NjY3IDIwLjQ5NTcgMTkuNjYxNiAyMC4xODE2IDE5LjUwNzYgMjAuMTMyNUMxOC4yOTQ0IDE5Ljc0OTcgMTcuMDcxNSAxOS4zNjY5IDE1Ljg2OCAxOC45ODRDMTUuNTk4NCAxOC44OTU3IDE1LjMxOTEgMTguODA3NCAxNS4wNTkyIDE4LjcxOUMxNC44MjgxIDE4LjY1MDMgMTQuNTc3NyAxOC41NzE4IDE0LjM0NjYgMTguNDkzM0MxMy4zMTY0IDE4LjE2OTMgMTIuMjY2OSAxNy44NDU0IDExLjIzNjYgMTcuNDkyQzExLjE5ODEgMTcuNDgyMiAxMS4xMDE4IDE3LjM0NDggMTEuMTAxOCAxNy4zMTUzVjMuNDQ1NEMxMS4xMjExIDMuMzk2MzIgMTEuMTQwMyAzLjMzNzQyIDExLjE4ODUgMy4yOTgxNkMxMS4yNjU1IDMuMjA5ODIgMTQuNTY4MSAyLjA5MDggMTUuODY4IDEuNjQ5MDhDMTYuMjE0NiAxLjUyMTQ3IDIwLjU1NzEgMCAyMC42OTE5IDBDMjAuODY1MiAwIDIxIDAuMTI3NjA3IDIxIDAuMzE0MTFaTTIwLjQxMjcgMTkuNzk4OEwxMS42Nzk1IDE3LjAzMDdWMy43MzAwNkwyMC40MTI3IDAuNzA2NzQ4VjE5Ljc5ODhaIiBmaWxsPSIjNEE0QTRBIi8+CjwvZz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNCAyM0wxMiAxOS4yNjRMMTIuMDUwMiAzTDI0IDYuNzE1MVYyM1oiIGZpbGw9IiM0QTRBNEEiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNy40ODc2IDhMMTkuMDg2NyA4LjQ0MTAxTDIyIDE4TDIwLjM1NzUgMTcuNTQ2M0wxOS43Njc0IDE1LjU4MzlMMTYuMzczIDE0LjY0NzJMMTUuNjQzIDE2LjI0NThMMTQgMTUuNzkyMUwxNy40ODc2IDhaTTE4LjIxODcgMTAuNTMwNkwxNy4wMDA1IDEzLjIxMTRMMTkuMjQwMiAxMy44Mjk1TDE4LjIxODcgMTAuNTMwNloiIGZpbGw9IiNGRkZGRkUiLz4KPC9zdmc+Cg==)
+
+  * [English](/2018/04/25/good-artists-copy-great-artists-steal/)
+  * [中文](/zh/2018/04/25/good-artists-copy-great-artists-steal/)
+  * [한국어](/ko/2018/04/25/good-artists-copy-great-artists-steal/)
+  * 日本語
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFNSURBVHgBpZQ/S0JhFMYfIqIpFBoiiC4FjdFUU9TQB2hoa2gIgoYwqDHo0tTWB2hwCYKGaGi/NNXUPxCCopbARXRQEETR5/Ae8Xrx9X3VH/zg6jkej+ccBLpJ0ZB+0jpt0g+apQEGYJcWaZ5e6Osdekz/aIOe+xTa1i6u6JQl50xzTvsVCvSbQ7iRzmp0wZZwosUm4EdEr23BJ5if58s+LdmCVbpHN+DHCszsppOBsdjzJZ2Bm0lbQIp90SX6QpfhZpGWaaFXUDb0T9dhjjXlKPYMc8Q9kQ/LQGUJ7QPdtORKXOYVoA9HmhTC3NAd/YY55jYH6By2k0Na0c4y2t2Wvh/FCr3SB3rv6lCCWS3YVGUEN3RNc6TwG8ziJG8eHoyrSW61yCrN0V8M+I8SZ5b+oLOonD4HGJI0fU90GGEE0rEOZc41jMgcfYRZUqYFnWNO4cb4dDEAAAAASUVORK5CYII=)
+
+### Search posts
+
+dark mode
+
+  * [About](/about/)
+  * [Portfolio](/portfolio/)
+  * [Team](/about#team)
+  * [Thesis](/thesis/)
+  * [Summit](/summit/)
+  * [Contact](/contact/)
+
+  * [Archives](https://github.com/multicoincapital/crypto-archives)
+  * [RSS feed](/rss.xml)
+  * [Press](/press/)
+  * [Jobs](https://jobs.multicoin.capital/)
+  * [Legal](/legal/)
+
+[Writing](/blog/category/blog/)
+
+## Good Artists Copy. Great Artists Steal.
+
+By [Kyle Samani](/about#225b2112-7be1-5fc9-8755-db7e245ba5a5)
+
+April 25, 2018 | 10 Minute Read
+
+![Copy URL to clipboard
+button](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDQ0NCA0NDQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ0Mi4yNDYgNDQyLjI0NjsiPgoJPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQwOS42NTcsMzIuNDc0Yy00My4xNDYtNDMuMTQ2LTExMy44MzItNDMuMTQ2LTE1Ni45NzgsMGwtODQuNzYzLDg0Ljc2MmMyOS4wNy04LjI2Miw2MC41ODktNi4xMiw4OC4xMjksNi43MzIKCQlsNDQuMDYzLTQ0LjA2NGMxNy4xMzYtMTcuMTM2LDQ0Ljk4Mi0xNy4xMzYsNjIuMTE4LDBjMTcuMTM2LDE3LjEzNiwxNy4xMzYsNDQuOTgyLDAsNjIuMTE4bC01NS4zODYsNTUuMzg2bC0zNi40MTQsMzYuNDE0CgkJYy0xNy4xMzYsMTcuMTM2LTQ0Ljk4MiwxNy4xMzYtNjIuMTE5LDBsLTQ3LjQzLDQ3LjQzYzExLjAxNiwxMS4wMTcsMjMuODY4LDE5LjI3OCwzNy4zMzIsMjQuNDgKCQljMzYuNDE1LDE0LjM4Miw3OC42NDMsOC44NzQsMTEwLjQ2Ny0xNi4yMTljMy4wNi0yLjQ0Nyw2LjQyNi01LjIwMSw5LjE4LTguMjYybDU3LjIyMi01Ny4yMjJsMzQuNTc4LTM0LjU3OAoJCUM0NTMuMTA5LDE0Ni4zMDYsNDUzLjEwOSw3NS45MjYsNDA5LjY1NywzMi40NzR6Ii8+Cgk8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTg0LjEzNSwzMjAuMTE0bC00Mi4yMjgsNDIuMjI4Yy0xNy4xMzYsMTcuMTM3LTQ0Ljk4MiwxNy4xMzctNjIuMTE4LDBjLTE3LjEzNi0xNy4xMzYtMTcuMTM2LTQ0Ljk4MSwwLTYyLjExOAoJCWw5MS44LTkxLjc5OWMxNy4xMzYtMTcuMTM2LDQ0Ljk4Mi0xNy4xMzYsNjIuMTE5LDBsNDcuNDMtNDcuNDNjLTExLjAxNi0xMS4wMTYtMjMuODY4LTE5LjI3OC0zNy4zMzItMjQuNDgKCQljLTM4LjI1LTE1LjMtODMuMjMyLTguMjYyLTExNS4zNjIsMjAuNTAyYy0xLjUzLDEuMjI0LTMuMDYsMi43NTQtNC4yODQsMy45NzhsLTkxLjgsOTEuNzk5CgkJYy00My4xNDYsNDMuMTQ2LTQzLjE0NiwxMTMuODMyLDAsMTU2Ljk3OWM0My4xNDYsNDMuMTQ2LDExMy44MzIsNDMuMTQ2LDE1Ni45NzgsMGw4Mi45MjctODMuODQ1CgkJQzIzMC4wMzUsMzM1LjcxOSwyMjAuMjQzLDMzNC40OTYsMTg0LjEzNSwzMjAuMTE0eiIvPgo8L3N2Zz4K)
+
+Cryptocurrencies and blockchains are not yet mature. Like computers from the
+80s and 90s, although they technically work, they’re fragile in practice. As
+such, most of their users are technical, and tend to focus on technical
+challenges rather than go-to-market challenges.
+
+The technical people building these systems tend to believe, either wholly or
+at least partially, “if you build it, they will come.” Against all odds, this
+actually worked for Bitcoin after its creator left the project without
+providing any future guidance in 2011.
+
+Many think this was also true for Ethereum, but this is patently false.
+Despite being worth hundreds of million of dollars, Vitalik Buterin, the
+leader of Ethereum, basically lives in an airplane, flying around the world
+evangelizing, even though he obviously prefers deep research over public
+speaking. He works insane hours while perpetually fighting jet lag. While
+building what would be the first release of Ethereum, he somehow found the
+time and energy to learn Chinese in an effort to bring Ethereum to China.
+Beyond Vitalik’s evangelizing, the Ethereum Foundation pours resources into
+grassroots community building around the world.
+
+People did not just organically come to Ethereum. The Ethereum Foundation
+brought Ethereum to market.
+
+Given that all of these technologies are fundamentally open source,
+competitors will begin to copy one another’s code much more aggressively, and
+turn foundations’ own platforms against them. This is accelerating. In
+approximately chronological order:
+
+  1. Litecoin [forked](https://en.wikipedia.org/wiki/Litecoin "ltc fork") from Bitcoin.
+  2. Monero [forked](https://monero.stackexchange.com/questions/1011/monero-inception-how-did-bitmonero-become-monero "Monero") from BitMonero, which forked from Bytecoin. Today, Monero is the most widely used and most valuable privacy coin. Bytecoin and Bitmonero have been relegated as footnotes in crypto history.
+  3. Ethereum [forked](https://en.wikipedia.org/wiki/Ethereum_Classic "dao fork") in the wake of the DAO hack, leaving Ethereum Classic, a directly competitive smart contract platform with identical feature set, in its wake.
+  4. Zclassic [forked](https://cryptoslate.com/guide-zclassic-bitcoin-private-fork/ "zclassic fork") from Zcash, removing the founder reward.
+  5. Bitcoin Cash [forked](https://en.wikipedia.org/wiki/Bitcoin_Cash "Bitcoin cash") from Bitcoin, splintering the community, code-base, ledger, and ASIC hash power.
+  6. The Ethereum team [worked](https://blog.z.cash/ethereum-snarks/ "eth snarks") with the Zcash team to bring SNARKs to Ethereum, enabling Zcash style privacy on Ethereum.
+  7. Cosmos is making it simple to spin up an Ethereum VM (EVM) on top of their Tendermint consensus algorithm, with the express purpose of drawing Ethereum dapps to build on [Ethermint](https://blog.cosmos.network/introducing-the-hard-spoon-4a9288d3f0df "Ethermint") chains in the Cosmos universe rather than on Ethereum directly.
+  8. ForkDelta [forked](https://medium.com/provably-neutral/forkdelta-250180233108 "Fork delta") EtherDelta, and in just a couple of months, appropriated nearly all of EtherDelta’s liquidity.
+  9. Bitcoin Private [forked](https://cryptoslate.com/guide-zclassic-bitcoin-private-fork/ "zclassic bp fork") Zclassic and Bitcoin, bringing SNARKs to the Bitcoin ledger.
+  10. Hedera Hashgraph, an Ethereum competitor, [adopted](https://www.reddit.com/r/hashgraph/comments/84sj5t/please_explain_weve_taken_the_evm_and_put_it/ "hashgraph") the EVM in an attempt to co-opt Ethereum’s development community.
+  11. Monero has recently undergone two forks, [MoneroV](https://monerov.org/ "monero v") and [Monero Classic](https://moneroclassic.org/ "monero classic").
+  12. EOS, an Ethereum competitor, is continually placing downwards price pressure on Ethereum by selling its massive hoard of ETH into the market.
+  13. WAX is [forking](https://medium.com/wax-io/worldwide-asset-exchange-development-update-wax-platform-base-technology-selection-and-more-7f280b90a371 "WAX fork") the EOS software to launch its own WAX chain.
+  14. Multiple sets of block producers will launch EOS chains, not all of which will [adhere](https://medium.com/@evolutionos/evolutions-response-to-vitalik-c54ef0304e47 "evolutions response vitalik") to the EOS ERC20 token distribution.
+  15. People are already [discussing](https://coinsnews.com/eos-scalability-rocks-inside-plasma-with-ethereum-providing-decentralization-and-safety-properties "eos inside eth plasma") using EOS software inside of Ethereum plasma chains.
+
+And these are just some of the publicly known examples. The pace of copying,
+forking, and stealing is accelerating. There will be hundreds of examples by
+the end of 2018.
+
+Given that all open-source code can be copied without permission, achieving
+network effects as quickly as possible is the only thing that matters.
+Achieving network effects is mostly a function of go-to-market strategy and
+execution. Therefore:
+
+ _The logical conclusion is that the key to long-term, sustained success is
+go-to-market strategy and execution, and that technology and product are
+almost irrelevant._
+
+For almost all crypto teams, this should be a scary thought.
+
+I suspect if you asked every crypto team “Which function is strongest in your
+organization, technology and product, or go-to-market?” less than 1% would say
+go-to-market.
+
+How might this play out in the real world? Some simple examples:
+
+  1. Let’s say that [threshold relay](https://dfinity.org/pdf-viewer/pdfs/viewer?file=../library/threshold-relay-blockchain-stanford.pdf "threshold relay"), invented by Dfinity, comes to be recognized as the best consensus model in that it most elegantly solves the [scalability trilemma](https://multicoin.capital/2018/02/23/models-scaling-trustless-computation/ "scalability trilemma"). At that point, EOS could rip its DPoS consensus algorithm out and replace it with threshold relay. It wouldn’t be trivial, but it wouldn’t be inconceivable either. (As a point of reference, a [single](http://www.businessinsider.com/jk-scheinberg-apple-engineer-rejected-job-apple-store-genius-bar-2016-9 "engineer at apple") Apple engineer ported Mac OS from PowerPC to Intel. If one person can literally rip-and-replace the metal and instruction set underlying an OS, a small team can rip-and-replace the consensus layer.)
+  2. A stablecoin starts to achieve meaningful success. The stablecoin team sets its sights on large scale merchant adoption. They reach out to Square as the ideal distribution partner. Square takes the battle tested code and economic model, and deploys its own stablecoin, keeping a large fraction of the “equity” of the stablecoin system for itself.
+  3. Telegram published a [laughable](https://tokeneconomy.co/a-ton-of-crap-b1e264c36802 "Ton paper") 130-page paper asserting that they would solve every major technical hurdle in crypto: privacy, scalability, distributed compute and storage, incentivized bandwidth routing, and more. Telegram doesn’t need to create any of these technologies in-house. Rather, they’ll just steal from the teams that solve these problems, each of which is a massive undertaking. Then they’ll incorporate other people’s open-source technology into the Telegram app, which has over [200M](https://techcrunch.com/2018/03/23/telegram-chalks-up-200m-maus-for-its-messaging-app/ "telegram users") monthly active users (MAUs). Moreover, Telegram will literally print money — their own proprietary currency — to incentivize behaviors and accelerate adoption.
+  4. See #3, but replace “Telegram” with “Facebook” or “Snapchat” or “Android” or “iOS.”
+
+Competing with incumbents who have massive distribution advantages is going to
+be incredibly difficult. In most cases, this will require raising a tremendous
+amount of capital, and deploying it aggressively to bring protocols to market.
+
+As it turns out, software [doesn’t bring itself to
+market](https://a16z.com/2014/05/30/selling-saas-products-dont-sell-
+themselves/ "selling saas andreesen"). People have to bring software to
+market.
+
+Up until this point, most of the entrepreneurs who got into crypto were
+largely ideologically driven. But the next wave of entrepreneurs and
+executives getting into crypto are not ideologues. They’re experienced
+operators who know how to bring software to market.
+
+Over the next few years, we’re going to see many teams get wiped out by
+competitors who literally steal all of the inventor’s technology. The hedonic
+treadmill that is capitalism dictates that this will happen. It’s going to be
+brutal.
+
+There is already precedent for this. The concept I’ve described above is
+Rocket Internet’s business model. They watch for teams that achieve
+product/market fit in the US, and then fast-follow in Europe. Their model
+works.
+
+As crypto matures, expect to see more [Rocket Internet](https://www.rocket-
+internet.com/ "rocket internet") clones (oh the irony). Given the open-source
+nature of crypto, it will be even easier to copy protocols than companies.
+
+Teams need to prepare to ramp up go-to-market functions aggressively as soon
+as they’ve achieved product/market fit. Fast-followers will use inventors’
+tech to try to beat them at their own game.
+
++ Show More
+
+[Read NextEOS ($EOS) Analysis and Valuation](/2018/04/24/eos-analysis-and-
+valuation/)
+
+![Kyle
+Samani](//images.ctfassets.net/qtbqvna1l0yq/4OF6ywwNnbQLmD5qsIQ9kF/29aa033b59f51bc65fff3729e6948fe4/kyle_samani__2_.jpg)
+
+By [Kyle Samani](/about#225b2112-7be1-5fc9-8755-db7e245ba5a5)
+
+[@kylesamani](https://twitter.com/KyleSamani)
+
+More Tags
+
+[Writing](/blog/category/blog/)[Featured](/blog/category/featured/)[Podcasts](/podcasts/)[Videos](/videos/)
+
+SUBSCRIBE TO OUR NEWSLETTER FOR THE BEST INSIGHTS IN CRYPTO
+
+[![phoenix](//images.ctfassets.net/qtbqvna1l0yq/72L5sEuJXOA7PvWBZM540E/27909d6ff5cda80158665ca43514b11c/phoenix_logo_white.svg)Subscribe](/)
+
+  * [About](/about/)
+  * [Portfolio](/portfolio/)
+  * [Team](/about#team)
+  * [Thesis](/thesis/)
+
+* * *
+
+  * [RSS feed](/rss.xml)
+  * [Press](/press/)
+  * [Jobs](https://jobs.multicoin.capital/)
+  * [Legal](/legal/)
+  * [Summit](/summit/)
+
+  * [Podcasts](/podcasts/)
+  * [Videos](/videos/)
+  * [Subscribe](https://multicoin.capital/)
+  * [Contact](/contact/)
+
+### GET IN TOUCH
+
+We’re always looking for compelling ideas, business, and partnership
+opportunities. We also enjoy reading your feedback. If you’re submitting a
+business proposal, please include a clear description and any resources that
+could help us evaluate your opportunity.
+
+[hello@multicoin.capital](mailto:hello@multicoin.capital)
+
+* * *
+
+![Multicoin
+Capital](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0MSIgdmlld0JveD0iMCAwIDQ4IDQxIj4KICA8cGF0aCBpZD0icGhvZW5peF9sb2dvIiBkPSJNMzkuNSwxMy41NTJhMTguOTM2LDE4LjkzNiwwLDAsMCw1LjY3Ni0xLjUzMywxMy4wMjQsMTMuMDI0LDAsMCwwLDIuNzkxLTEuODgzTDQ4LDEwLjEwOHMtLjY3OC4zNC0xLjUyNC42OGE5LjI4Niw5LjI4NiwwLDAsMS0yLjM1MS40NTRjLTEuNjQ3LjE5My0zLjQuMzQ0LTQuODQ4LS42MjRBNy42MzgsNy42MzgsMCwwLDAsNDAuNiw5Ljg1NmMxLjcxMS0uOTc5LDMuNDA3LTIuMDM3LDQuMjY0LTMuOTFhMTMuOTM4LDEzLjkzOCwwLDAsMS0yLjAzMywxLjEsMjkuMjgsMjkuMjgsMCwwLDEtMy4wNDkuOTM0LDIwLjgyMywyMC44MjMsMCwwLDAsMS45NDktMi42MzMsMjQuNDE0LDI0LjQxNCwwLDAsMCwxLjEtMi43MThjLS4xNjkuMzM5LS41OTMuNTEtMS4yNywxLjE4OWE2LjYzNCw2LjYzNCwwLDAsMS0yLjU0MSwxLjM1OSwxOS43LDE5LjcsMCwwLDAsMS41MjMtMy4xMjRjLjE5LS42NDkuMzE5LTEuNDgzLjUxLTIuMDU3LS4wODUuMjU1LS43NjIuODQ5LTEuNDQsMS43ODRhMTEuNjIzLDExLjYyMywwLDAsMS0xLjg2MywxLjg2OXYtMS4xYTEuNzQ0LDEuNzQ0LDAsMCwwLS44NDctMS4zNTljLS43NjItLjM0LTEuNjk0Ljg0OS0xLjY5NC44NDlzMS4xLjA4NSwxLjE4Ni41MS0uOTMyLDEuMzU5LS45MzIsMS4zNTlsLjMzOS43NjRzMCw1LjAxMS0zLjgxMSw2LjQ1NS0zLjcyNiwyLjEyMy00LjA2NSwyLjYzM2MtLjU0MS44MTUuMTg0LDEuOTctLjIzMSwyLjc5NGEuODY5Ljg2OSwwLDAsMS0uMjQxLjMxMy45NzUuOTc1LDAsMCwxLTEuMTM4LS4wNDcsMi4xMzcsMi4xMzcsMCwwLDEtLjQ0My0uNzE1Yy0uNTQyLTEuMjE4LTEuNTYyLTMuNDM3LTEuNTYyLTMuNDM3YTExLjk0OCwxMS45NDgsMCwwLDEsMS45ODMtLjczM2MuNjI2LS4xLjYyNi45NDIuNjI2Ljk0MmwuMzE0LS43MzNhMS42MzcsMS42MzcsMCwwLDAtLjEtMS40NjVjLS4xLS4zMTQtLjgzNS0uNzMzLTMuMjM1LTEuNzc5YTQuMjQ0LDQuMjQ0LDAsMCwwLTIuNTExLS4zNzgsMS44NDgsMS44NDgsMCwwLDAtMS4wMDguNDc0LDExLjEyNiwxMS4xMjYsMCwwLDEsMS40ODgtLjA2NCw0LjEzMyw0LjEzMywwLDAsMSwxLjUwNi40OTNIMjEuNDk1Yy0xLjM1NywwLTIuMywxLjc3OS0yLjMsMS43NzlsLjgzNi0uNzMzYy43LS42MTgsMS42MjgtLjQxOCwyLjQtLjQxOS0uNDQzLDAtLjk1OC43MjctMS4xNTMsMS4wNjRhMy40NjgsMy40NjgsMCwwLDAtLjIxNywyLjY0MWMuMDIuMDE0LjAxMy0uMDIuMDEzLS4wNDMsMC0uNDE4LjUyMi0uODM3LjUyMi0uODM3bC0uMjA5LDEuMTUxYTUuODQ3LDUuODQ3LDAsMCwwLDAsMi4yYzAtLjMxNC43My0uOTQyLjczLS45NDJ2LjczM2ExLjU3NSwxLjU3NSwwLDAsMS0uMDU2LjM1MWMtLjAwOC4wMzEtLjAxOC4wNjYtLjAyOS4xYTEuMSwxLjEsMCwwLDEtMS40OTIuNC44NzQuODc0LDAsMCwxLS4yNDEtLjMxM2MtLjQxNi0uODI0LjMxLTEuOTc5LS4yMzEtMi43OTQtLjMzOS0uNTEtLjI1NC0xLjE4OS00LjA2NS0yLjYzM3MtMy44MTItNi40NTUtMy44MTItNi40NTVsLjMzOS0uNzY0cy0xLjAxNi0uOTM0LS45MzItMS4zNTksMS4xODYtLjUxLDEuMTg2LS41MVMxMS44NTYuODUsMTEuMDk0LDEuMTlhMS43NDUsMS43NDUsMCwwLDAtLjg0NywxLjM1OXYxLjFBMTEuNiwxMS42LDAsMCwxLDguMzg0LDEuNzg0QzcuNzA3Ljg0OSw3LjAyOS4yNTUsNi45NDUsMGMuMTkxLjU3NC4zMiwxLjQwOC41MSwyLjA1N0ExOS42NzQsMTkuNjc0LDAsMCwwLDguOTc4LDUuMTgxLDYuNjM4LDYuNjM4LDAsMCwxLDYuNDM3LDMuODIyYy0uNjc3LS42NzktMS4xLS44NDktMS4yNy0xLjE4OWEyNC42OTEsMjQuNjkxLDAsMCwwLDEuMSwyLjcxOEEyMC43LDIwLjcsMCwwLDAsOC4yMTYsNy45ODRhMjkuMjgxLDI5LjI4MSwwLDAsMS0zLjA1LS45MzUsMTMuOTM5LDEzLjkzOSwwLDAsMS0yLjAzMy0xLjFDMy45OSw3LjgxOSw1LjY4Nyw4Ljg3Nyw3LjQsOS44NTZhNy42NzMsNy42NzMsMCwwLDAsMS4zMjYuNzYxYy0xLjQ0OC45NjgtMy4yLjgxNy00Ljg0OC42MjRhOS4yOTEsOS4yOTEsMCwwLDEtMi4zNTEtLjQ1NEMuNjc4LDEwLjQ0NiwwLDEwLjEwNywwLDEwLjEwN2wuMDMyLjAyOWExMywxMywwLDAsMCwyLjc5MSwxLjg4M0ExOC45MTUsMTguOTE1LDAsMCwwLDguNSwxMy41NTJhNy4yLDcuMiwwLDAsMCwxLjI0MS4yMDdjLS42ODYsMS4xNDgtNi4xOSwyLjg3My03Ljc1OSwyLjkzNSwxLjI4NC4xNjYsMi41NjQuMzQzLDMuODU3LjQzOGExNC4wNzQsMTQuMDc0LDAsMCwwLDQuNTgtLjE0NmMyLjU0MS0uNjgsMS42MDktLjQyNSwxLjYwOS0uNDI1LS4xMjguMDM1LS40NTkuNzgtLjU0Mi45QTcuMDM5LDcuMDM5LDAsMCwxLDkuOTU3LDE5LjA5YTE5Ljk0NSwxOS45NDUsMCwwLDEtNC40NTEsMi42NTMuMTkxLjE5MSwwLDAsMC0uMTE3LjA4NmMuMjQyLjE2MS43MzYuMDcyLDEuMDExLjA1OWExMy43NzEsMTMuNzcxLDAsMCwwLDYuNDExLTIuMjA3LDQuMzM1LDQuMzM1LDAsMCwwLC45MDktLjU3MmwuMjU0LS4yNTVhMTEuNTcxLDExLjU3MSwwLDAsMC0uOTE2LDIuNCwxNS41ODMsMTUuNTgzLDAsMCwwLS4yOTMsNC43MjVjLjAxNC4zODQuMDE1Ljc3LjAyLDEuMTU0LDAsLjEwNi4wMi4yMTEuMDIuMzE3YTEwLjU5LDEwLjU5LDAsMCwwLC43MzktMS40OTJjLjI0Ni0uNS40OTUtLjk5NC43NTMtMS40ODVhMTAuNCwxMC40LDAsMCwxLDEuMjg2LTIuMTM5Yy43NjItLjg1LDEuMjctMS40NDQsMS4yNy0xLjQ0NGEzOS4zNjgsMzkuMzY4LDAsMCwwLC41OTMsNi42MjVsLjUwOCwxLjYxNGExNi4yNzIsMTYuMjcyLDAsMCwxLC41LTQuNSwxMC4xMSwxMC4xMSwwLDAsMSwxLjE5NC0yLjI5Yy4yNC42MTEuNDYsMS4yMzMuNjUyLDEuODYxYTUuNTQ4LDUuNTQ4LDAsMCwxLS4wNDIsMy4xNTMsOS4yNiw5LjI2LDAsMCwxLS42MSwxLjk1MWMtLjMzOS42OCwxLjE4Ni0uOTM0LDEuNDQtMS4zNTlzMS4zNTUtMi41NDgsMS4yNy0zLjQ4Mi41OTMtLjA4NS43NjIuNTk1YTQuNTgsNC41OCwwLDAsMS0uNDIzLDMuNjUyLDM3LjM2NCwzNy4zNjQsMCwwLDEtNC4wNjUsNS4xODJsMi4yODctMS41MjktMS40NCw0LjE2MkwyMi4xLDMzLjQ2NWwtMS4yNyw0Ljg0MXMyLjAxMy0zLjMxNywyLjExNy0zLjczN2MuMDczLS4yOTMuODQsNC45ODIsMS4wNDksNi40MzEuMjA4LTEuNDQ5Ljk3Ni02LjcyNCwxLjA0OS02LjQzMS4xLjQyLDIuMTE3LDMuNzM3LDIuMTE3LDMuNzM3TDI1LjksMzMuNDY1bDIuNjI1LDMuMDU4LTEuNDQtNC4xNjIsMi4yODcsMS41MjlBMzcuMzcyLDM3LjM3MiwwLDAsMSwyNS4zLDI4LjcwOGE0LjU3Niw0LjU3NiwwLDAsMS0uNDIzLTMuNjUyYy4xNjktLjY4Ljg0Ny0xLjUyOS43NjItLjU5NXMxLjAxNiwzLjA1NywxLjI3LDMuNDgyLDEuNzc4LDIuMDM5LDEuNDQsMS4zNTlhOS4zMSw5LjMxLDAsMCwxLS42MS0xLjk1MUE1LjU0Nyw1LjU0NywwLDAsMSwyNy43LDI0LjJjLjE5MS0uNjI5LjQxMi0xLjI1LjY1Mi0xLjg2MWExMC4wNzUsMTAuMDc1LDAsMCwxLDEuMTk0LDIuMjksMTYuMjc0LDE2LjI3NCwwLDAsMSwuNSw0LjUwNWwuNTA4LTEuNjE0YTM5LjM3NSwzOS4zNzUsMCwwLDAsLjU5My02LjYyNXMuNTA4LjU5NCwxLjI3LDEuNDQ0QTEwLjQxMSwxMC40MTEsMCwwLDEsMzMuNywyNC40NzZjLjI1OC40OTEuNTA4Ljk4OS43NTMsMS40ODZhMTAuNjIxLDEwLjYyMSwwLDAsMCwuNzM5LDEuNDkyYzAtLjEwNi4wMTgtLjIxMS4wMi0uMzE3LDAtLjM4NC4wMDYtLjc3LjAyLTEuMTU0YTE1LjU4MywxNS41ODMsMCwwLDAtLjI5Mi00LjcyNSwxMS41ODcsMTEuNTg3LDAsMCwwLS45MTYtMi40bC4yNTQuMjU1YTQuMjY4LDQuMjY4LDAsMCwwLC45MDkuNTcyQTEzLjc3MSwxMy43NzEsMCwwLDAsNDEuNiwyMS44ODljLjI3NS4wMTIuNzY5LjEsMS4wMTEtLjA2YS4xODcuMTg3LDAsMCwwLS4xMTctLjA4NiwxOS45MjksMTkuOTI5LDAsMCwxLTQuNDUxLTIuNjUzLDcuMDYsNy4wNiwwLDAsMS0xLjUyOC0xLjYyOWMtLjA4My0uMTE5LS40MTQtLjg2NC0uNTQyLS45LDAsMC0uOTMyLS4yNTUsMS42MDkuNDI1YTE0LjA3NywxNC4wNzcsMCwwLDAsNC41ODEuMTQ2YzEuMjkzLS4xLDIuNTcyLS4yNzIsMy44NTctLjQzOC0xLjU3LS4wNjItNy4wNzQtMS43ODctNy43Ni0yLjkzNUE3LjI1NCw3LjI1NCwwLDAsMCwzOS41LDEzLjU1MloiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==)
+
+## Multicoin Capital
+
+©2017-2021 Multicoin Capital. All Rights Reserved.
+
