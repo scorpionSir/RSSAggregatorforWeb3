@@ -2,13 +2,8 @@ import sys
 sys.path.append('../')
 import media_lib as ml
 import lxml
-import os
 from dateutil import parser
 from tqdm import tqdm
-import io
-import markdownify
-import html2text
-from github import Github
 import pickle
 
 
@@ -22,10 +17,8 @@ class Web3Channel(object):
         self.cfg_sql = ml.get_default_cfg_sql()
         self.channel = self.cfg_sql.get_channel(tag='web3_rss')
         self.bot = ml.create_bot('scorpion_media_bot', work_dir=work_dir)
-        self.github = Github('xx')
-        self.repo = self.github.get_user().get_repo('RSSAggregatorforWeb3')
-        self.db_files = self.repo.get_contents('md_files')
-        self.db_file_names = [item.name for item in self.db_files]
+        self.channel_scheduler = ml.ChannelScheduler('web3', self.channel.id)
+        self.logger = ml.logger
 
     async def init_from_opml_file(self):
         opml_file = self.work_dir.joinpath('RAW.opml')
@@ -55,15 +48,47 @@ class Web3Channel(object):
                 subtitle = feed.get('subtitle', None)
                 if subtitle and subtitle.startswith('<a class'):
                     subtitle = None
-                await ml.TtRssFeed.create(url=feed_dict['href'], updated=updated, title=feed['title'],subtitle=subtitle)
+                await ml.TtRssFeed.create(url=feed_dict['href'], updated=updated, title=feed['title'], subtitle=subtitle)
         print('finished')
 
     async def sync_feed(self, db_feed: ml.TtRssFeed):
         feed_dict = await self.feed_parser.parse(db_feed.url)
-        return feed_dict
+        if not feed_dict:
+            self.logger.info(f'Can not get the content from db_feed {repr(db_feed)}')
+            return
+        feed = feed_dict['feed']
+        updated = feed['updated'] if 'updated' in feed_dict['feed'] else feed_dict['entries'][0]['published']
+        updated = parser.parse(updated).timestamp()
+        if updated <= db_feed.updated:
+            return
+        entries = list()
+        for entry in feed_dict['entries']:
+            published = entry['published'] if 'published' in entry else entry['updated']
+            published = parser.parse(published)
+            if published.timestamp() > db_feed.updated:
+                entries.append((entry, published))
+            else:
+                break
+        entries = sorted(entries, key=lambda x: x[1])
+        results = list()
+        for entry, published in entries:
+            res = await self.send_entry(entry, str(published))
+            if not res:
+                self.logger.info(f"Error in send_entry for the db_seed {repr(db_feed)}")
+                return
+            results.append(res)
+            db_feed.updated = published.timestamp()
+            await db_feed.save()
+        return results
 
-    async def initial_sync(self):
+    async def sync(self):
         db_feeds = await ml.TtRssFeed.all()
+        sync_time = await ml.TtDict.get_or_none(key="web3_rss_sync_time")
+        if not sync_time:
+            sync_time = parser.parse('2021-07-08T07:00:34Z').timestamp()
+            await ml.TtDict.create(key='web3_rss_sync_time', value=str(sync_time))
+        else:
+            sync_time = float(sync_time.value)
         entry_file = self.work_dir.joinpath('entries.pk')
         if not entry_file.exists():
             aio_queue = ml.AioQueue(15, self.sync_feed, key_arg=0)
@@ -77,54 +102,85 @@ class Web3Channel(object):
             pickle.dump(entries, entry_file.open('wb'))
         else:
             entries = pickle.load(entry_file.open('rb'))
-        is_start = False
-        # new_entries = list()
-        # for item in entries:
-        #     if not is_start and item['title'].startswith('Sale Delayed — New Date: Thursday Aug 10'):
-        #         is_start = True
-        #     if is_start:
-        #         new_entries.append(item)
-        channel_scheduler = ml.ChannelScheduler('web3', self.channel.id)
-        for entry in entries:
-            chat_id = await channel_scheduler.get_chat_id()
-            res = await self.send_entry(entry, chat_id)
+
+        for idx, entry in enumerate(tqdm(entries)):
+            published = entry['published'] if 'published' in entry else entry['updated']
+            pub_time = parser.parse(published).timestamp()
+            if pub_time <= sync_time:
+                continue
+            print(f'sync the {idx} entry')
+            res = await self.send_entry(entry)
+            # if not res:
+            #     raise RuntimeError()
+        print('finished')
+
+    async def initial_sync(self, sync_time_str: str=None):
+        db_feeds = await ml.TtRssFeed.all()
+        if sync_time_str:
+            sync_time = parser.parse(sync_time_str).timestamp()
+            db_sync_time = await ml.TtDict.get_or_none(key="web3_rss_sync_time")
+            if db_sync_time:
+                db_sync_time.value = str(sync_time)
+                await db_sync_time.save()
+            else:
+                await ml.TtDict.create(key='web3_rss_sync_time', value=str(sync_time))
+        else:
+            db_sync_time = await ml.TtDict.get_or_none(key="web3_rss_sync_time")
+            if db_sync_time:
+                sync_time = float(db_sync_time.value)
+            else:
+                sync_time = 0.
+                await ml.TtDict.create(key='web3_rss_sync_time', value=str(sync_time))
+
+        entry_file = self.work_dir.joinpath('entries.pk')
+        if not entry_file.exists():
+
+            async def get_feed_dict(db_feed):
+                return await self.feed_parser.parse(db_feed.url)
+
+            aio_queue = ml.AioQueue(15, get_feed_dict, key_arg=0)
+            await aio_queue.run(db_feeds)
+            entries = list()
+            for url, feed_dict in aio_queue.results.items():
+                if not feed_dict:
+                    continue
+                entries.extend(feed_dict['entries'])
+            entries = sorted(entries, key=lambda x: parser.parse(x['published'] if 'published' in x else x['updated']).timestamp())
+            pickle.dump(entries, entry_file.open('wb'))
+        else:
+            entries = pickle.load(entry_file.open('rb'))
+
+        for idx, entry in enumerate(tqdm(entries)):
+            published = entry['published'] if 'published' in entry else entry['updated']
+            pub_time = parser.parse(published)
+            if pub_time.timestamp() <= sync_time:
+                continue
+            print(f'sync the {idx} entry')
+            res = await self.send_entry(entry, str(pub_time))
             if not res:
                 raise RuntimeError()
         print('finished')
 
-    async def send_entry(self, entry, chat_id):
+    async def send_entry(self, entry, published=None):
         if 'tags' in entry:
             tags = [f"#{item['term'].replace('-', '_')}  " for item in entry['tags']]
             tags = ''.join(tags)
         else:
             tags = None
-        res = await self.aio_http.request(entry['link'])
-        if not res:
-            raise RuntimeError
-        _, html = res.value
-        md = html2text.html2text(html.decode())
-        md_name = entry['title'] + '.md'
-        ret = self.repo.create_file(f"md_files/{md_name}", 'uploading md file', md, branch='main')
-        md_link = ret['content'].html_url
-        # if md_name not in self.db_file_names:
-        #     ret = self.repo.create_file(f"md_files/{md_name}", 'uploading md file', md, branch='main')
-        #     md_link = ret['content'].html_url
-        # else:
-        #     content = [item for item in self.db_files if item.name == md_name][0]
-        #     md_link = content.html_url
-        # md = io.BytesIO(md.encode())
-        published = entry['published'] if 'published' in entry else entry['updated']
+        if not published:
+            published = entry['published'] if 'published' in entry else entry['updated']
+            published = str(parser.parse(published))
         text = (f"""**Title:** {entry['title']} \n\n**Tags:** {tags} \n\n"""
                 f"""**Published:** {published} \n\n**Created by:** @scorpion_media_bot \n\n"""
-                f"""**Original Link:** {entry['link']} \n\n"""
-                f"""**Github Link:** {md_link}"""
-                # f"""**Original Link:** {entry['link']}"""
+                f"""**Link:** {entry['link']}"""
                 )
-        return await self.bot.api.send_message(chat_id, text, parse_mode='markdown')
+        chat_id = await self.channel_scheduler.get_chat_id()
+        ret = await self.bot.api.send_message(chat_id, text, parse_mode='markdown')
+        return ret
 
 
 channel = Web3Channel()
-ml.async_run(channel.initial_sync())
+ml.async_run(channel.sync())
 
 
 
