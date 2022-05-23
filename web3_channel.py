@@ -69,10 +69,12 @@ class Web3Channel(object):
                 entries.append((entry, published))
             else:
                 break
-        entries = sorted(entries, key=lambda x: x[1])
+        if not entries:
+            return
+        entries = sorted(entries, key=lambda x: x[1].timestamp())
         results = list()
         for entry, published in entries:
-            res = await self.send_entry(entry, str(published))
+            res = await self.send_entry(entry, str(published.astimezone()))
             if not res:
                 self.logger.info(f"Error in send_entry for the db_seed {repr(db_feed)}")
                 return
@@ -83,38 +85,12 @@ class Web3Channel(object):
 
     async def sync(self):
         db_feeds = await ml.TtRssFeed.all()
-        sync_time = await ml.TtDict.get_or_none(key="web3_rss_sync_time")
-        if not sync_time:
-            sync_time = parser.parse('2021-07-08T07:00:34Z').timestamp()
-            await ml.TtDict.create(key='web3_rss_sync_time', value=str(sync_time))
-        else:
-            sync_time = float(sync_time.value)
-        entry_file = self.work_dir.joinpath('entries.pk')
-        if not entry_file.exists():
-            aio_queue = ml.AioQueue(15, self.sync_feed, key_arg=0)
-            await aio_queue.run(db_feeds)
-            entries = list()
-            for url, feed_dict in aio_queue.results.items():
-                if not feed_dict:
-                    continue
-                entries.extend(feed_dict['entries'])
-            entries = sorted(entries, key=lambda x: parser.parse(x['updated']).timestamp())
-            pickle.dump(entries, entry_file.open('wb'))
-        else:
-            entries = pickle.load(entry_file.open('rb'))
+        aio_queue = ml.AioQueue(5, self.sync_feed)
+        await aio_queue.run(db_feeds)
+        await aio_queue.cancel()
+        self.logger.info("sync task finished")
 
-        for idx, entry in enumerate(tqdm(entries)):
-            published = entry['published'] if 'published' in entry else entry['updated']
-            pub_time = parser.parse(published).timestamp()
-            if pub_time <= sync_time:
-                continue
-            print(f'sync the {idx} entry')
-            res = await self.send_entry(entry)
-            # if not res:
-            #     raise RuntimeError()
-        print('finished')
-
-    async def initial_sync(self, sync_time_str: str=None):
+    async def initial_sync(self, sync_time_str: str = None):
         db_feeds = await ml.TtRssFeed.all()
         if sync_time_str:
             sync_time = parser.parse(sync_time_str).timestamp()
@@ -156,7 +132,7 @@ class Web3Channel(object):
             if pub_time.timestamp() <= sync_time:
                 continue
             print(f'sync the {idx} entry')
-            res = await self.send_entry(entry, str(pub_time))
+            res = await self.send_entry(entry, str(pub_time.astimezone()))
             if not res:
                 raise RuntimeError()
         print('finished')
@@ -169,10 +145,11 @@ class Web3Channel(object):
             tags = None
         if not published:
             published = entry['published'] if 'published' in entry else entry['updated']
-            published = str(parser.parse(published))
+            published = str(parser.parse(published).astimezone())
         text = (f"""**Title:** {entry['title']} \n\n**Tags:** {tags} \n\n"""
                 f"""**Published:** {published} \n\n**Created by:** @scorpion_media_bot \n\n"""
-                f"""**Link:** {entry['link']}"""
+                f"""**Link:** {entry['link']} \n\n"""
+                f"""**Feeds Source:** https://github.com/chainfeeds/RSSAggregatorforWeb3 """
                 )
         chat_id = await self.channel_scheduler.get_chat_id()
         ret = await self.bot.api.send_message(chat_id, text, parse_mode='markdown')
@@ -180,28 +157,6 @@ class Web3Channel(object):
 
 
 channel = Web3Channel()
-ml.async_run(channel.sync())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+scheduler = ml.Scheduler()
+scheduler.add_job(channel.sync, interval=5)
+scheduler.run()
